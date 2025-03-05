@@ -1,0 +1,1 @@
+replace with this settings.json file in ~/Library/Application Support/amazon-q

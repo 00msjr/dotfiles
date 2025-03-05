@@ -1,0 +1,16 @@
+{
+  "app.hideMenubarIcon": true,
+  "app.preferredTerminal": "Ghostty",
+  "autocomplete.ai.enabled": true,
+  "autocomplete.developerMode": true,
+  "autocomplete.fontFamily": "Hack",
+  "autocomplete.fontSize": 12,
+  "autocomplete.keybindings.enter": "insertSelected",
+  "autocomplete.keybindings.tab": "insertCommonPrefix",
+  "autocomplete.scrollWrapAround": true,
+  "autocomplete.theme": "catppuccin",
+  "chat.greeting.enabled": false,
+  "codeWhisperer.shareCodeWhispererContentWithAWS": false,
+  "telemetry.enabled": false,
+  "telemetryClientId": "bb2baa97-7989-4217-9524-c48a497ff971"
+}
