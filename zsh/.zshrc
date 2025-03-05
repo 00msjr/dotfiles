@@ -87,7 +87,7 @@ alias love="/Applications/love.app/Contents/MacOS/love"
 alias sys='btop'
 alias bonsai='cbonsai -l -i'
 alias matrix='cmatrix -s'
-alias leetcode='vim leetcode.nvim'
+alias leetcode='v leetcode.nvim'
 alias bar='brew services restart sketchybar'
 alias 1920='cpfile ~/.config/dynamic-island-sketchybar/userconfigs/1920monitor.sh && psfile ~/.config/dynamic-island-sketchybar/userconfig.sh && sketchybar --reload'
 alias mba='cpfile ~/.config/dynamic-island-sketchybar/userconfigs/mba2022_13.sh && psfile ~/.config/dynamic-island-sketchybar/userconfig.sh && sketchybar --reload'
@@ -96,9 +96,9 @@ alias mba='cpfile ~/.config/dynamic-island-sketchybar/userconfigs/mba2022_13.sh 
 alias mdcd='(){mkdir $1 && cd $1}'
 alias img='kitty icat'
 alias cat='bat --paging=never'
-alias zshconfig='vim ~/.config/zsh/.zshrc'
-alias config='vim ~/.config'
-alias restart='source ~/.config/zsh/.zshrc'
+alias zshconfig='v ~/.config/zsh/.zshrc'
+alias config='v ~/.config'
+alias r='source ~/.config/zsh/.zshrc'
 alias c='clear'
 alias :q='exit'
 alias rm='trash'
@@ -107,8 +107,9 @@ alias rmds='~/Developer/scripts/rmdsstore/./rmdsstore.sh'
 alias cp='cb copy'
 alias ps='cb paste'
 alias f='fzf'
+alias commit='(){git add . && git commit -m "$1" && git push}'
 
-function commit() {
+function comit() {
     if [ -z "$1" ]; then
         echo "Usage: commit \"Your commit message here\""
         return 1

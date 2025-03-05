@@ -1,4 +1,4 @@
-#files: 1034	version: 5.9
+#files: 987	version: 5.9
 
 _comps=(
 ''\''brew' '_brew_services'
@@ -90,15 +90,10 @@ _comps=(
 '6l' '_go'
 '8g' '_go'
 '8l' '_go'
-'ARC' '_arc'
-'Arc' '_arc'
 'Mail' '_mail'
 'Mosaic' '_webbrowser'
 'SuSEconfig' '_SUSEconfig'
-'ZEN' '_zen'
-'Zen' '_zen'
 '_arguments' '__arguments'
-'_git_log_prettily' '_git'
 'a2dismod' '_a2utils'
 'a2dissite' '_a2utils'
 'a2enmod' '_a2utils'
@@ -154,7 +149,6 @@ _comps=(
 'apt-show-versions' '_apt-show-versions'
 'aptitude' '_aptitude'
 'apvlv' '_pdf'
-'arc' '_arc'
 'arduino-ctags' '_ctags'
 'arecord' '_alsa-utils'
 'arena' '_webbrowser'
@@ -341,7 +335,6 @@ _comps=(
 'cygserver.exe' '_cygserver'
 'cygstart' '_cygstart'
 'cygstart.exe' '_cygstart'
-'d' '_dirs'
 'dak' '_dak'
 'darcs' '_darcs'
 'dash' '_sh'
@@ -549,7 +542,6 @@ _comps=(
 'gbasename' '_basename'
 'gcat' '_cat'
 'gcc' '_gcc'
-'gccd' '_git'
 'gccgo' '_go'
 'gchgrp' '_chown'
 'gchmod' '_chmod'
@@ -566,9 +558,7 @@ _comps=(
 'gdd' '_dd'
 'gdf' '_df'
 'gdiff' '_diff'
-'gdnolock' '_git'
 'gdu' '_du'
-'gdv' '_git'
 'geany' '_geany'
 'gegrep' '_grep'
 'gem' '_gem'
@@ -593,13 +583,7 @@ _comps=(
 'gfmt' '_fmt'
 'gfold' '_fold'
 'ggetopt' '_getopt'
-'ggf' '_git'
-'ggfl' '_git'
-'ggl' '_git'
-'ggp' '_git'
-'ggpnp' '_git'
 'ggrep' '_grep'
-'ggu' '_git'
 'ggv' '_gnome-gv'
 'gh' '_gh'
 'ghead' '_head'
@@ -1054,7 +1038,7 @@ _comps=(
 'noglob' '_precommand'
 'nohup' '_precommand'
 'nova' '_openstack'
-'npm' '_npm_completion'
+'npm' '_npm'
 'ns' '_hosts'
 'nsenter' '_nsenter'
 'nslookup' '_nslookup'
@@ -1073,7 +1057,6 @@ _comps=(
 'ogginfo' '_vorbis'
 'oksh' '_sh'
 'okular' '_okular'
-'omz' '_omz'
 'open' '_open'
 'openstack' '_openstack'
 'opera' '_webbrowser'
@@ -1149,9 +1132,6 @@ _comps=(
 'pip-3.4' '_pip'
 'pip2' '_pip'
 'pip3' '_pip'
-'pipig' '_pip'
-'pipigb' '_pip'
-'pipigp' '_pip'
 'piuparts' '_piuparts'
 'pkg' '_pkg5'
 'pkg-config' '_pkg-config'
@@ -1498,6 +1478,7 @@ _comps=(
 'tkconch' '_twisted'
 'tkinfo' '_texinfo'
 'tla' '_tla'
+'tldr' '_tldr'
 'tload' '_tload'
 'tmux' '_tmux'
 'todo' '_devtodo'
@@ -1724,7 +1705,7 @@ _comps=(
 'zeal' '_zeal'
 'zed' '_zed'
 'zegrep' '_grep'
-'zen' '_zen'
+'zen' '_webbrowser'
 'zf_chgrp' '_chown'
 'zf_chmod' '_chmod'
 'zf_chown' '_chown'
@@ -1777,20 +1758,10 @@ _services=(
 '-redirect-,>,gzip' 'gunzip'
 '-redirect-,>,xz' 'unxz'
 'Mail' 'mail'
-'_git_log_prettily' 'git-log'
 'bzcat' 'bunzip2'
 'dch' 'debchange'
-'gccd' 'git-clone'
 'gchgrp' 'chgrp'
 'gchown' 'chown'
-'gdnolock' 'git-diff'
-'gdv' 'git-diff'
-'ggf' 'git-checkout'
-'ggfl' 'git-checkout'
-'ggl' 'git-checkout'
-'ggp' 'git-checkout'
-'ggpnp' 'git-checkout'
-'ggu' 'git-checkout'
 'gnupod_INIT.pl' 'gnupod_INIT'
 'gnupod_addsong.pl' 'gnupod_addsong'
 'gnupod_check.pl' 'gnupod_check'
@@ -1885,11 +1856,10 @@ bindkey '^[,' _history-complete-newer
 bindkey '^[/' _history-complete-older
 bindkey '^[~' _bash_complete-word
 
-autoload -Uz _rustc _pip _rustc _pip _rustc \
-            _pip _rustc _pip _bun _cargo \
-            _gh _rustup _bat _brew _brew_services \
-            _cb _deno _eza _fd _gh \
-            _git _glow _heroku _ninja _rg \
+autoload -Uz _rustc _pip _bun _cargo _gh \
+            _rustup _bat _brew _brew_services _cb \
+            _deno _eza _fd _gh _git \
+            _glow _heroku _ninja _rg _tldr \
             _SUSEconfig __arguments _a2ps _a2utils _aap \
             _abcde _absolute_command_paths _ack _acpi _acpitool \
             _acroread _adb _add-zle-hook-widget _add-zsh-hook _alias \
@@ -2082,19 +2052,11 @@ autoload -Uz _rustc _pip _rustc _pip _rustc \
             _zed _zfs _zfs_dataset _zfs_pool _zftp \
             _zip _zle _zlogin _zmodload _zmv \
             _zoneadm _zones _zparseopts _zpty _zsh \
-            _zsh-mime-handler _zsocket _zstyle _ztodo _zypper \
-            _bat _brew _brew_services _cb _deno \
-            _eza _fd _gh _git _glow \
-            _heroku _ninja _rg _bat _brew \
-            _brew_services _cb _deno _eza _fd \
-            _gh _git _glow _heroku _ninja \
-            _rg _bat _brew _brew_services _cb \
-            _deno _eza _fd _gh _git \
-            _glow _heroku _ninja _rg
+            _zsh-mime-handler _zsocket _zstyle _ztodo _zypper
 autoload -Uz +X _call_program
 
 typeset -gUa _comp_assocs
 _comp_assocs=( '' )
 
 #omz revision: 6e7ac0544e71c7b777746cb50f70de68c6495b86
-#omz fpath: /Users/mikey/.config/zsh/.oh-my-zsh/custom/plugins/zshcp /Users/mikey/.config/zsh/.oh-my-zsh/custom/plugins/zen-search /Users/mikey/.config/zsh/.oh-my-zsh/custom/plugins/arc-search /Users/mikey/.config/zsh/.oh-my-zsh/plugins/aliases /Users/mikey/.config/zsh/.oh-my-zsh/custom/plugins/you-should-use /Users/mikey/.config/zsh/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting /Users/mikey/.config/zsh/.oh-my-zsh/plugins/npm /Users/mikey/.config/zsh/.oh-my-zsh/plugins/bun /Users/mikey/.config/zsh/.oh-my-zsh/plugins/brew /Users/mikey/.config/zsh/.oh-my-zsh/plugins/eza /Users/mikey/.config/zsh/.oh-my-zsh/plugins/gh /Users/mikey/.config/zsh/.oh-my-zsh/plugins/rust /Users/mikey/.config/zsh/.oh-my-zsh/plugins/python /Users/mikey/.config/zsh/.oh-my-zsh/plugins/pip /Users/mikey/.config/zsh/.oh-my-zsh/plugins/fzf /Users/mikey/.config/zsh/.oh-my-zsh/plugins/git /Users/mikey/.config/zsh/.oh-my-zsh/functions /Users/mikey/.config/zsh/.oh-my-zsh/completions /Users/mikey/.config/zsh/.oh-my-zsh/custom/functions /Users/mikey/.config/zsh/.oh-my-zsh/custom/completions /Users/mikey/.config/zsh/.oh-my-zsh/custom/plugins/zshcp /Users/mikey/.config/zsh/.oh-my-zsh/custom/plugins/zen-search /Users/mikey/.config/zsh/.oh-my-zsh/custom/plugins/arc-search /Users/mikey/.config/zsh/.oh-my-zsh/plugins/aliases /Users/mikey/.config/zsh/.oh-my-zsh/custom/plugins/you-should-use /Users/mikey/.config/zsh/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting /Users/mikey/.config/zsh/.oh-my-zsh/plugins/npm /Users/mikey/.config/zsh/.oh-my-zsh/plugins/bun /Users/mikey/.config/zsh/.oh-my-zsh/plugins/brew /Users/mikey/.config/zsh/.oh-my-zsh/plugins/eza /Users/mikey/.config/zsh/.oh-my-zsh/plugins/gh /Users/mikey/.config/zsh/.oh-my-zsh/plugins/rust /Users/mikey/.config/zsh/.oh-my-zsh/plugins/python /Users/mikey/.config/zsh/.oh-my-zsh/plugins/pip /Users/mikey/.config/zsh/.oh-my-zsh/plugins/fzf /Users/mikey/.config/zsh/.oh-my-zsh/plugins/git /Users/mikey/.config/zsh/.oh-my-zsh/functions /Users/mikey/.config/zsh/.oh-my-zsh/completions /Users/mikey/.config/zsh/.oh-my-zsh/custom/functions /Users/mikey/.config/zsh/.oh-my-zsh/custom/completions /Users/mikey/.config/zsh/.oh-my-zsh/custom/plugins/zshcp /Users/mikey/.config/zsh/.oh-my-zsh/custom/plugins/zen-search /Users/mikey/.config/zsh/.oh-my-zsh/custom/plugins/arc-search /Users/mikey/.config/zsh/.oh-my-zsh/plugins/aliases /Users/mikey/.config/zsh/.oh-my-zsh/custom/plugins/you-should-use /Users/mikey/.config/zsh/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting /Users/mikey/.config/zsh/.oh-my-zsh/plugins/npm /Users/mikey/.config/zsh/.oh-my-zsh/plugins/bun /Users/mikey/.config/zsh/.oh-my-zsh/plugins/brew /Users/mikey/.config/zsh/.oh-my-zsh/plugins/eza /Users/mikey/.config/zsh/.oh-my-zsh/plugins/gh /Users/mikey/.config/zsh/.oh-my-zsh/plugins/rust /Users/mikey/.config/zsh/.oh-my-zsh/plugins/python /Users/mikey/.config/zsh/.oh-my-zsh/plugins/pip /Users/mikey/.config/zsh/.oh-my-zsh/plugins/fzf /Users/mikey/.config/zsh/.oh-my-zsh/plugins/git /Users/mikey/.config/zsh/.oh-my-zsh/functions /Users/mikey/.config/zsh/.oh-my-zsh/completions /Users/mikey/.config/zsh/.oh-my-zsh/custom/functions /Users/mikey/.config/zsh/.oh-my-zsh/custom/completions /Users/mikey/.config/zsh/.oh-my-zsh/custom/plugins/zshcp /Users/mikey/.config/zsh/.oh-my-zsh/custom/plugins/zen-search /Users/mikey/.config/zsh/.oh-my-zsh/custom/plugins/arc-search /Users/mikey/.config/zsh/.oh-my-zsh/plugins/aliases /Users/mikey/.config/zsh/.oh-my-zsh/custom/plugins/you-should-use /Users/mikey/.config/zsh/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting /Users/mikey/.config/zsh/.oh-my-zsh/plugins/npm /Users/mikey/.config/zsh/.oh-my-zsh/plugins/bun /Users/mikey/.config/zsh/.oh-my-zsh/plugins/brew /Users/mikey/.config/zsh/.oh-my-zsh/plugins/eza /Users/mikey/.config/zsh/.oh-my-zsh/plugins/gh /Users/mikey/.config/zsh/.oh-my-zsh/plugins/rust /Users/mikey/.config/zsh/.oh-my-zsh/plugins/python /Users/mikey/.config/zsh/.oh-my-zsh/plugins/pip /Users/mikey/.config/zsh/.oh-my-zsh/plugins/fzf /Users/mikey/.config/zsh/.oh-my-zsh/plugins/git /Users/mikey/.config/zsh/.oh-my-zsh/functions /Users/mikey/.config/zsh/.oh-my-zsh/completions /Users/mikey/.config/zsh/.oh-my-zsh/custom/functions /Users/mikey/.config/zsh/.oh-my-zsh/custom/completions /Users/mikey/.config/zsh/.oh-my-zsh/cache/completions /opt/homebrew/share/zsh/site-functions /usr/local/share/zsh/site-functions /usr/share/zsh/site-functions /usr/share/zsh/5.9/functions /opt/homebrew/share/zsh/site-functions /opt/homebrew/share/zsh/site-functions /opt/homebrew/share/zsh/site-functions
+#omz fpath: /Users/mikey/.config/zsh/.oh-my-zsh/custom/plugins/zshcp /Users/mikey/.config/zsh/.oh-my-zsh/custom/plugins/zen-search /Users/mikey/.config/zsh/.oh-my-zsh/custom/plugins/arc-search /Users/mikey/.config/zsh/.oh-my-zsh/plugins/aliases /Users/mikey/.config/zsh/.oh-my-zsh/custom/plugins/you-should-use /Users/mikey/.config/zsh/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting /Users/mikey/.config/zsh/.oh-my-zsh/plugins/npm /Users/mikey/.config/zsh/.oh-my-zsh/plugins/bun /Users/mikey/.config/zsh/.oh-my-zsh/plugins/brew /Users/mikey/.config/zsh/.oh-my-zsh/plugins/eza /Users/mikey/.config/zsh/.oh-my-zsh/plugins/gh /Users/mikey/.config/zsh/.oh-my-zsh/plugins/rust /Users/mikey/.config/zsh/.oh-my-zsh/plugins/python /Users/mikey/.config/zsh/.oh-my-zsh/plugins/pip /Users/mikey/.config/zsh/.oh-my-zsh/plugins/fzf /Users/mikey/.config/zsh/.oh-my-zsh/plugins/git /Users/mikey/.config/zsh/.oh-my-zsh/functions /Users/mikey/.config/zsh/.oh-my-zsh/completions /Users/mikey/.config/zsh/.oh-my-zsh/custom/functions /Users/mikey/.config/zsh/.oh-my-zsh/custom/completions /Users/mikey/.config/zsh/.oh-my-zsh/cache/completions /opt/homebrew/share/zsh/site-functions /usr/local/share/zsh/site-functions /usr/share/zsh/site-functions /usr/share/zsh/5.9/functions
