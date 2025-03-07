@@ -8,6 +8,11 @@
 # ===========================
 # Oh My Posh
 eval "$(oh-my-posh init zsh --config ~/Developer/plugins/catppuccin-bubbles-omp-theme/catppuccin-bubbles.omp.json)"
+eval "$(zoxide init zsh)"
+
+# Syntax Highlighting
+source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source ~/.config/zsh/zsh-syntax-highlighting/themes/catppuccin_mocha-zsh-syntax-highlighting.zsh
 
 # ===========================
 # Paths and Environment Variables
@@ -20,10 +25,6 @@ export XDG_CONFIG_HOME="$HOME/.config"
 # ===========================
 # Suppress login messages
 source ~/Developer/scripts/hushterm/hushterm.sh
-
-# Syntax Highlighting 
-source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source ~/.config/zsh/zsh-syntax-highlighting/themes/catppuccin_mocha-zsh-syntax-highlighting.zsh
 
 # Rust
 export PATH="$HOME/.cargo/bin:$PATH"
@@ -66,33 +67,36 @@ fi
 # ===========================
 # Apps
 alias v='nvim'                                # Open Neovim
+alias vim='nvim'
 alias love="/Applications/love.app/Contents/MacOS/love"  # LÖVE game engine
 alias sys='btop'                              # System monitor
 alias bonsai='cbonsai -l -i'                  # Cool ASCII bonsai
 alias matrix='cmatrix -s'                     # Matrix effect
-alias leetcode='v leetcode.nvim'              # Open Leetcode plugin in Neovim
+alias leetcode='vim leetcode.nvim'            # Open Leetcode plugin in Neovim
 alias bar='brew services restart sketchybar'  # Restart Sketchybar
 alias 1920='cpfile ~/.config/dynamic-island-sketchybar/userconfigs/1920monitor.sh && psfile ~/.config/dynamic-island-sketchybar/userconfig.sh && sketchybar --reload'
 alias mba='cpfile ~/.config/dynamic-island-sketchybar/userconfigs/mba2022_13.sh && psfile ~/.config/dynamic-island-sketchybar/userconfig.sh && sketchybar --reload'
 
 # File and Directory Management
-alias mdcd='(){mkdir $1 && cd $1}'            # Create and move into directory
-alias md='mkdir -p'                           # Create directories recursively
+alias md='makedir'                            # Create directories recursively
+alias rm='trash'                              # Move to trash instead of delete
 alias img='kitty icat'                        # Display images in Kitty terminal
 alias cat='bat --paging=never'                # Use `bat` instead of `cat`
-alias rm='trash'                              # Move to trash instead of delete
 alias link='ln -s'                            # Create symbolic links
 alias rmds='~/Developer/scripts/rmdsstore/./rmdsstore.sh' # Remove `.DS_Store` files
+alias cp='cb copy'
+alias ps='cb paste'
 
 # Configuration Shortcuts
-alias zshconfig='v ~/.config/zsh/.zshrc'      # Edit Zsh configuration
-alias config='v ~/.config'                    # Open config folder
-alias re='source ~/.config/zsh/.zshrc'        # Reload Zsh config
+alias zshconfig='vim ~/.config/zsh/.zshrc'      # Edit Zsh configuration
+alias config='vim ~/.config'                    # Open config folder
+alias re='source ~/.config/zsh/.zshrc'          # Reload Zsh config
 
 # Git
 alias commit='(){git add . && git commit -m "$1" && git push}' # Quick commit and push
 
 # Navigation
+alias cd='z'
 alias l='eza --long --all --header --icons --git' # Enhanced `ls` replacement
 alias tree='eza --tree --all --icons'
 alias c='clear'                                   # Clear terminal
