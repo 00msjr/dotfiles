@@ -3,3 +3,7 @@
 -- Add any additional options here
 vim.g.lazyvim_picker = "fzf"
 vim.opt.guifont = "Hack Nerd Font:h16"
+
+-- Use normal line numbers instead of relative line numbers
+vim.opt.relativenumber = false
+vim.opt.number = true

@@ -1,0 +1,628 @@
+q chatr
+q chat
+l
+l
+cd config_backup_20250304_091542/
+l
+cd .npm
+l
+..
+l
+..
+l
+vim
+rm -rf config_backup_20250304_091542/
+l
+rs
+l
+q chat
+q chat
+l
+ls
+vim help.sh
+ls
+chmod +x help.sh
+./help.sh
+ls
+restart
+./help.sh
+vim help.sh
+./help.sh
+c
+l
+cd Library
+l
+cd Caches
+l
+cd glow
+l
+cat glow.log
+cd com.amazon.codewhisperer
+l
+..
+l
+cd com.amazon.codewhisperer
+l
+cd WebKit
+l
+cd NetworkCache
+l
+cd Version\ 17
+l
+cd Records
+l
+cd 9FA74E9000C5D229D45B6FE1858FAE8B29D68F12
+l
+cd re
+l
+..
+l
+cd ~/Library/Caches/com.amazon.codewhisperer/WebKit/NetworkCache/Version 17/Records/9FA74E9000C5D229D45B6FE1858FAE8B29D68F12
+l
+cd Resource
+l
+cat 01594FCF9E2AAD369E01536FD3B78433F2BED024
+....
+l
+....
+l
+...
+l
+cd Application\ Support
+l
+cd firestore
+l
+..
+l
+cd Steam
+l
+cd appcache
+l
+..
+l
+..
+l
+..
+l
+l
+..
+l
+..
+l
+cd soup
+l
+cd Documents
+l
+cd Public
+l
+..
+l
+cd Library
+l
+makedir
+makedir Documents -755
+l
+..
+l
+l
+cd mikey
+l
+vim .bashrc
+..
+l
+..
+l
+cd usr
+l
+cd bin
+l
+.
+l
+..
+l
+..
+l
+cd opt
+l
+.
+l
+..
+l
+cd bin
+l
+..
+l
+cd system
+l
+cd Library
+l
+cd AppleMediaServices
+l
+~
+l
+l
+l
+rm zsh
+l
+cd /Users/mikey/developer/scripts
+l
+cd hushterm
+;
+l
+vim hushterm.sh
+re
+~
+l
+l
+rm zsh
+l
+cd .config/zsh
+l
+l
+~
+l
+l
+l
+rm zsh\
+
+l
+rm zsh
+l
+cd .wdm
+l
+cd drivers
+l
+cd chromedriver
+l
+cd mac64
+l
+cd 12
+cd 128.0.6613.119
+l
+cd chromedriver-mac-arm64
+l
+~
+l
+cd .local
+l
+cd bin
+l
+..
+l
+cd state
+l
+cd nvim
+l
+cat lsp.log
+l
+...
+l
+..
+l
+mv Developer/ Dev
+zshconfig
+l
+re
+l
+rm zsh
+l
+l
+l
+cd dev
+l
+cd fig
+l
+cd ../dev/figma
+l
+..
+l
+rm figma
+l
+cd inspo
+l
+l
+..
+l
+cd plugins
+l
+cd homebrew-makedir
+..
+l
+cd makedir
+l
+..
+l
+..
+l
+..
+l
+re
+cd Dev
+l
+..
+l
+cd dev
+l
+cd plug
+l
+q chat
+l
+~
+l
+rm zsh
+re
+l
+rm zsh
+l
+makedir
+l
+re
+re
+re
+re
+re
+re
+re
+re
+c
+re
+re
+re
+re
+re
+re
+l
+c
+l
+re
+q chat
+l
+rm zsh
+l
+re
+l
+re
+re
+re
+re
+l
+rm zsh
+l
+ZDOTDIR
+HOME
+$HOME
+$ZDOTDIR
+cd .config/zsh
+l
+l
+l
+re
+l
+re
+l
+l
+l
+re
+l
+rm zsh
+l
+cd /Users/mikey/developer/scripts/hushterm
+l
+vim hushterm.sh
+l
+re
+l
+c
+l
+rm zsh
+l
+re
+l
+export
+where export
+fd export
+/
+l
+/
+l
+/
+/
+..
+re
+/
+re
+/
+re
+/
+l
+/
+z
+cd
+cd Public
+l
+re
+l
+..
+l
+..
+l
+fd export
+vim
+vim
+~
+l
+zshconfig
+re
+~
+l
+.
+/
+l
+cd ~
+l
+~
+l
+cd dev
+l
+~
+l
+re
+cd dev
+l
+..
+l
+love
+l
+cd .cache
+l
+cd nvim
+l
+cd luac
+l
+l
+..
+l
+..
+l
+..
+l
+cat .viminfo
+l
+fd vim
+pip3 list
+l
+q chat
+l
+re
+l
+fd python
+l
+cat .lesshst
+rm .lesshst
+l
+cat .gitconfig
+cd .config
+l
+cd .git
+l
+..
+l
+~
+l
+q chat
+q chat
+q restart
+q restart
+q chat
+l
+rm Sites/
+l
+l
+cat .bashrc
+vim .gitconfig
+cd .config
+l
+spicetify apply
+;
+~
+l
+l
+l
+cat .bash_profile
+l
+cd .config
+l
+cd bash
+l
+cat .bashrc
+~
+l
+cd .cache
+l
+cd nvim
+l
+cd catppuccin
+l
+cat mocha
+...
+l
+..
+l
+cat .zshenv
+zshconfig
+l
+makedir test123
+l
+rm test123/
+l
+re
+md test123
+l
+rm test123
+l
+rm zsh
+l
+cat .viminfo
+l
+re
+l
+q chat
+l
+cd makedir
+l
+cp readme.md
+vim README.md
+git diff
+l
+~
+l
+l
+re
+l
+q chat
+l
+cd .config
+l
+cd rust
+l
+re
+l
+time l
+cd .rustup
+l
+..
+l
+rust
+rustup
+rustup update
+l
+q chat
+l
+..
+l
+rm rust
+re
+~
+l
+cd .tras
+l
+l
+..
+l
+cd Downloads
+l
+..
+l
+q chat
+l
+rmds
+l
+cd .ssh
+l
+cat id_rsa
+l
+cat known_hosts
+..
+l
+cd .config
+l
+..
+l
+cat .yarnrc
+rm .yarnrc
+cat .bash_profile
+l
+cd .vscode
+l
+..
+l
+q chat
+where code
+l
+cd Applications
+l
+..
+l
+cd Desktop
+l
+..
+l
+l
+..
+l
+..
+l
+cd Applications
+l
+~
+l
+rm .vscode
+l
+cd .swiftpm
+l
+..
+l
+cd .spicetify
+l
+..
+l
+cd .config
+l
+cd spicetify
+l
+~
+l
+cat .netrc
+rm .netrc
+l
+cat .CFUserTextEncoding
+rm .CFUserTextEncoding
+l
+cd .ssh
+l
+vim config
+..
+l
+mv .ssh .config/.ssh
+l
+cd .confif
+cd .config
+l
+vim .gitignore
+l
+makedir bash
+l
+..
+l
+q chat
+l
+rm zsh
+l
+zshconfig
+re
+l
+l
+cat .viminfo
+l
+cd .config/nvim
+l
+...
+l
+where nvim
+fd nvim
+fd vim
+/
+fd vim
+fd "nvim"
+fd "nvim"
+l
+cat .file
+~
+l
+zshconfig
+ssh
+re
+ssh
+zshconfig
+l
+l

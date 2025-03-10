@@ -1,0 +1,1004 @@
+l
+vim main.rs
+l
+..
+l
+rm target
+cargo build -r
+l
+cargo run
+cd src
+l
+vim main.rs
+l
+..
+l
+cargo build -r && cargo run
+l
+cd src
+l
+..
+l
+cd release
+l
+./makedir 
+./makedir test12/test1 test21/test2 t3 --git
+l
+rm t3 test21 test12
+l
+..
+l
+..
+l
+cd src
+l
+vim main.rs
+..
+l
+cargo build -r && cargo run
+cd release
+l
+./makedir test1
+rm test1
+l
+..
+l
+..
+l
+cd src
+l
+vim main.rs
+..
+l
+cargo build -r && cargo run
+l
+cd src
+l
+vim main.rs
+q chat
+q chat
+q
+l
+cargo run
+vim main.rs
+..
+l
+cd src
+l
+vim main.rs
+..
+l
+cargo b
+l
+cargo r
+cd release
+l
+./makedir test1/t2
+..
+l
+..
+l
+rm target
+l
+l
+cd src
+l
+vim main.rs
+..
+l
+cd release
+l
+./makedir test1 --readme
+l
+cd release
+l
+cd release
+cd target
+l
+..
+l
+cd target
+l
+cd debug
+l
+..
+l
+..
+l
+rm target
+l
+cargo b
+l
+cd target
+l
+..
+l
+cargo b -r
+l
+cd release
+l
+./makedir test1 --readme
+l
+cd test1
+l
+cat README.md
+l
+glow README.md
+l
+..
+l
+..
+l
+..
+l
+rm target
+l
+zshconfig
+bar
+l
+cd src
+l
+vim main.rs
+l
+..
+l
+cargo b -r
+cargo run
+cd release
+l
+./makedir test1 test2 
+l
+rm test1 test2
+l
+l
+...
+l
+cd src
+l
+vim main.rs
+l
+..
+l
+cargo b -r && cargo run
+l
+re
+l
+c
+l
+cd src
+l
+vim main.rs
+q chat
+re
+c
+l
+..
+l
+l
+makedir
+l
+brew uninstall makedir
+l
+cd src
+l
+vim main.rs
+l
+vim main.rs
+vim main.rs
+..
+l
+cargo b -r && cargo run
+cd release
+l
+./makedir . --l
+l
+./makedir . -l
+l
+rm -l
+l
+rm "-l"
+l
+...
+l
+cd release
+l
+./makedir test1 -l --git 
+l
+..
+l
+..
+l
+rm target
+l
+cd src
+l
+vim main.rs
+..
+l
+cargo b -r && cargo run
+cd release
+l
+./makedir test1 -l --git
+...
+l
+cd src
+l
+vim main.rs
+vim main.rs
+..
+l
+cargo b -r && cargo run
+l
+cd release
+l
+rm test1
+l
+./makedir test1 -l --git
+l
+./makedir test2 -l -g
+l
+...
+l
+cd src
+l
+vim main.rs
+..
+l
+cargo b -r && cargo run
+l
+cd src
+..
+l
+cd release
+l
+./makedir test3 -l -g
+l
+...
+l
+rm target
+l
+cargo b -r && cargo run
+cd release
+l
+./makedir test4 -l -g
+...
+l
+cd src
+l
+vim main.rs
+..
+l
+cargo b -r && cargo run
+cd release
+l
+./makedir test5 -l -g
+./makedir test6 -l -g -n -b -r
+l
+cd test6
+l
+..
+l
+./makedir test7 -l --git -r
+cd test7
+l
+;
+l
+..
+l
+rm test4/ test5 test6 test7
+l
+...
+l
+cd src
+l
+vim main.rs
+l
+..
+l
+cat Cargo.lock
+vim Cargo.lock
+l
+cd release
+l
+./makedir
+mkdir
+q chat
+mkdir -v test1
+l
+rm test1
+l
+l
+...
+l
+cd src
+l
+vim main.rs
+l
+vim main.rs
+l
+..
+l
+makedir tests
+md
+mkdir tests
+cd tests
+l
+;l
+l
+l
+vim makedir_tests.rs
+..
+l
+cargo test
+..
+l
+cd makedir
+l
+cd tess
+l
+cd tests
+l
+vim makedir_tests.rs
+..
+l
+cargo test
+cargo test -- --nocapture
+l
+cd tests
+l
+..
+l
+cd release
+l
+./makedir 
+l
+./makedir test1 test2 -g -r -l -bun
+./makedir test3 --testing
+l
+rm test1/ test2/ test3
+l
+...
+l
+cd src
+l
+vim main.rs
+l
+..
+l
+cd src
+l
+vim main.rs
+l
+rm target
+l
+..
+l
+rm target
+l
+cargo b -r
+cargo run
+cd release
+./makedir test1 test2/t3 -go -do -l -r -g
+l
+brew install go
+re
+l
+c
+l
+./makedir test3 -go
+./makedir test3 --go
+...
+l
+cd src
+l
+vim main.rs
+vim
+vim main.rs
+..
+l
+rm target
+l
+cargo b -r
+cargo run
+l
+cd release
+l
+./makedir test1 -go -do -l
+l
+cd test1
+l
+cat Dockerfile
+l
+l
+..
+l
+rm test1
+l
+..
+l
+..
+l
+cd src
+l
+vim main.rs
+l
+vim ma
+vim main.rs
+l
+..
+l
+cd release
+l
+./makedir
+l
+./makedir test1 test2/t2 -g -r -l -go -do -c -n -b -y -p -d\
+
+brew install pnpm
+l
+re
+l
+rm test1 test2 && ./makedir test1 -p
+l
+cd test1
+l
+cat package.json
+l
+..
+l
+re
+l
+rm test1
+l
+./makedir test1 -go
+l
+rm test1
+l
+...
+l
+cd src
+l
+vim main.rs
+..
+l
+cargo b -r
+cd release
+l
+./makedir -go
+./makedir test -go
+./makedir test1 -go
+l
+rm test test1
+l
+...
+l
+cd src
+l
+vim main.rs
+l
+..
+l
+re
+l
+l
+cd src
+l
+..
+l
+cargo b -r
+l
+cd src
+l
+cb 
+l
+cp main.rs\
+
+l
+cb
+l
+vim main.rs
+l
+..
+l
+vim Cargo.toml
+cargo login 
+l
+cd src
+l
+vim main.rs
+..
+l
+cd release
+l
+./makedir ../testd
+l
+..
+l
+rm testd
+l
+cd release
+l
+./makedir .
+l
+..
+l
+cd release
+l
+l
+...
+l
+..
+l
+cd homebrew
+l
+cd form
+l
+cp makedir.rb
+../../makedir/src
+l
+cd ../../makedir/src
+l
+cp main.rs
+vim main.rs
+vim main.rs
+l
+..
+l
+cargo b -r
+l
+cd readme_test
+l
+cat README.md
+..
+l
+cd target
+l
+cd release
+l
+./makedir
+./makedir .
+l
+./makedir . --update
+l
+...
+l
+cd src
+l
+vim main.rs
+l
+..
+l
+rm target
+l
+rm readme_test/ cargo_test/ license_test/
+l
+vim README.md
+vim LICENSE
+cargo b -r
+l
+cd release
+l
+./makedir test1
+l
+cd test1
+l
+l
+../makedir . -l
+l
+cd makedir
+l
+rm LICENSE
+l
+cd target/release
+l
+./makedir ../../makedir . -l
+l
+rm test1
+l
+..
+l
+..
+l
+cd release
+l
+rm LICENSE
+l
+./makedir ../../ -l
+l
+...
+l
+vim LICENSE
+l
+cd src
+l
+vim main.rs
+l
+..
+l
+rm target
+l
+l
+cd makedir
+l
+..
+l
+rm makedir
+l
+vim .gitignore
+vim Cargo.toml
+cd src
+l
+vim main.rs
+cp main.rs
+..
+l
+cd tests
+l
+vim makedir_tests.rs
+..
+l
+cargo test
+l
+cd tests
+l
+..
+l
+cd src
+l
+cp main.rs
+vim main.rs
+l
+..
+l
+vim tests/
+cd tests
+l
+vim makedir_tests.rs
+..
+l
+cargo test
+cd src
+l
+vim main.rs
+l
+..
+l
+cd tar
+l
+..
+l
+cd target
+l
+..
+l
+cargo b -r
+l
+cd target
+l
+..
+l
+cargo test
+q chat
+l
+cd tests
+l
+..
+l
+cargo test
+l
+cd target
+l
+cd release
+l
+./makedir
+l
+l
+..
+l
+..
+l
+q chat
+l
+cd src
+l
+vim main.rs
+l
+..
+l
+vim README.md
+l
+vim README.md
+q chat
+;
+l
+glow README.md
+l
+cd release
+l
+..
+l
+..
+l
+commit "v0.2.0"
+l
+q chat
+cargo package
+cargo package --list
+l
+q chat
+l
+glow README.md
+commit "update readme.md"
+l
+rm target
+l
+cargo b -r
+cargo test
+l
+cd test
+l
+..
+l
+cd target
+l
+cd debug
+l
+..
+l
+cd release
+l
+./makedir
+l
+...
+l
+q chat
+l
+cd src
+l
+vim main.rs
+vim main.rs
+l
+..
+l
+cargo b -r
+l
+cd srcl
+cd src
+l
+vim main.rs
+..
+l
+cd target
+ll
+l
+cd release
+l
+./makedir . -l
+l
+l
+...
+l
+cd src
+l
+vim main.rs
+..
+l
+rm target && cargo b -r && cargo run
+l
+cd release
+l
+./makedir test1 -l -r -c -r \
+
+l
+cd test1
+l
+l
+l
+..
+l
+./makedir test2 -644
+l
+git status
+...
+l
+git status
+git reset --hard
+l
+cd src
+l
+vim main.rs
+..
+l
+cargo b -r && cargo run
+vim README.md
+l
+cd target 
+l
+cd release
+l
+open .
+q chat
+l
+...
+l
+rm target
+l
+cd src
+l
+vim main.rs
+l
+..
+l
+cargo b -r
+l
+git status
+l
+git diff
+l
+vim Cargo.toml
+l
+rm target
+l
+cargo b -r
+l
+cd release
+l
+./makedir 
+./makedir test1 -wq
+l
+./makedir test2 -g --readme -l --docker -go -c -n -b -y -p -d
+l
+cd test2
+l
+..
+l
+./makedir test3 -p
+l
+...
+l
+rm target
+l
+~
+l
+rm go
+l
+cd release
+l
+./makedir test123 -l chmod 644
+l
+cd chmod
+l
+..
+l
+...
+l
+cd src
+l
+vim main.rs
+q chat
+l
+vim main.rs
+l
+vim main.rs
+..
+l
+git diff
+l
+vim Cargo.lock
+vim Cargo.toml
+git log
+l
+git diff
+git commit -m "add color to output messages"
+git push
+git commit -m "add color to output messages"
+git commit -am "add color to output messages"
+l
+git push
+vim Cargo.toml
+l
+l
+c
+l
+q
+vim README.md
+l
+vim LICENSE
+vim README.md
+l
+cd src
+l
+vim main.rs
+.
+l
+vim main.rs
+git commit -am "format main"
+l
+cp main.rs
+l
+l
+..
+l
+git push
+q chat
+git branch permissions
+l
+git switch permissions
+l
+git diff
+git log
+l
+l
+re
+c
+l
+cd makedir
+l
+vim
+vim src
+vim src/main.rs
+l
+cd makedir
+l
+cargo b -r
+cd releasel
+cd release
+l
+./makedir testd -g -l -700
+./makedir test12 \
+
+l
+cd testd
+l
+..
+l
+./makedir test123 -l -g -r
+l
+./makedir -123 -l -g
+l
+./makedir testing -123 -l -g
+l
+...
+l
+rm targetl
+l
+rm target
+l
+cd tests
+cd tests
+l
+..
+l
+cargo b -r && cargo test
+l
+vim cargo.toml
+vim
+cd release
+l
+./makedir testd -700 -g
+l
+cd testd
+l
+../../makedir . -777
+../makedir . -777
+l
+..
+l
+rm testd
+l
+...
+l
+brew install soup-ms/makedir
+~
+f
+l
+brew uninstall wine-stable
+l
+cd Library
+l
+cd Application\ Support
+l
+..
+l
+/
+f
+q chat
