@@ -52,7 +52,7 @@ alias push='git push'
 # Navigation
 alias cd='z'
 alias l='eza --long --all --header --icons --git' # Enhanced `ls` replacement
-alias tr='eza --tree --all --icons'
+alias tree='eza --tree --all --icons'
 alias c='clear'                                   # Clear terminal
 alias :q='exit'                                   # Vim-style exit
 alias f='fzf'                                     # Fuzzy finder
