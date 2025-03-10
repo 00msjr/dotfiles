@@ -677,3 +677,455 @@ l
 brew ;s
 brew ls
 brew ls --verbose
+l
+rm mkdir
+l
+rm init
+l
+rm .amazon-q.dotfiles.bak/
+l
+cd .npm
+l
+cd .npm
+l
+/
+l
+zshconfig
+/
+re
+l
+/
+l
+fd q_cli
+f
+~
+l
+fd amazon
+cd /Users/mikey/Library/Application\ Support
+l
+cd amazon-q
+l
+cd shell
+l
+vim zshrc.post.zsh
+vim zshrc.pre.zsh
+..
+l
+vim history
+vim data.sqlite3
+vim update.lock
+q
+q
+q
+l
+vim update.lock
+vim update.lock
+l
+q chat
+fd generateassistant
+fd com.amazon.aws
+~
+fd com.amazon.aws
+l
+export
+l
+l
+md .python
+l
+mv .python_history /.python
+l
+mv .python_history/ .python
+l
+mv .python_history .python/.python_history
+l
+mv .pypirc .python/.pypirc
+l
+mv .pyenv .python/.pyenv
+l
+PYTHONHISTFILE=~/.python/.python_history
+PYPI_CONFIG_FILE=~/.python/.pypirc
+PYENV_ROOT=~/.python/.pyenv
+l
+cd .config/bash
+l
+..
+l
+cd plugins
+l
+..
+l
+..
+l
+fd export
+where EXPORT
+where export.txt
+where "export"
+export HISTFILE=~/.config/bash/.bash_history
+export | grep HISTFILE
+re
+l
+mv ~/.bash_history ~/.bash_profile ~/.bashrc ~/.config/bash/
+l
+re
+l
+cd .npm
+l
+l
+l
+..
+l
+cat .npmrc
+l
+mv ~/.npm-global ~/.npm/\
+mv ~/.npmrc ~/.npm/
+npm config set prefix ~/.npm/npm-global
+export PATH="$HOME/.npm/npm-global/bin:$PATH"
+re
+l
+mv ~/.npmrc ~/.npm/
+export NPM_CONFIG_USERCONFIG="$HOME/.npm/.npmrc"
+source ~/.bashrc
+source $BASH
+export | grep BASH
+export | grep bash
+export
+l
+export | grep rc
+export BASH_ENV
+l
+l
+export 
+unset BASH_ENV
+export BASH_ENV=$HOME/.config/bash/.bashrc
+export
+re
+l
+export git | grep git
+export 
+l
+mv .gitconfig ~/.config/.gitconfig
+l
+cd .config
+l
+vim .gitignore
+l
+re
+c
+l
+~
+l
+zshconfig
+BASH_ENV
+export BASH_ENV
+l
+vim .config/bash/.bashrc
+l
+zshconfig
+l
+rmds
+cd .config
+ps aux | grep git
+rm -f /Users/mikey/.config/.git/index.lock
+rm /Users/mikey/.config/.git/index.lock
+add
+zshconfig
+re
+commit "add"
+add
+git add
+git add .
+echo "bash/.bash_history" >> .gitignore
+add
+l
+cd zsh
+l
+open customplugins/
+add
+l
+..
+l
+add
+cat .gitignore
+l
+commit "fix"
+push
+q translate
+find . -maxdepth 2 -type d
+l
+rm .DS_Store
+l
+tree
+tr
+zshconfig
+l
+acp "add"
+git config --global\
+
+git config
+l
+cava
+l
+brew ls
+brew uses --installed icu4c@76 gettext readline pkgconf mpfr libmpc
+brew uses --installed icu4c@76 gettext readline pkgconf mpfr libmpc
+brew uses --installed $(brew list)
+brew uses --installed $(brew ls)
+pip3 list
+l
+brew ls
+lame
+lame --help
+l
+brew ls
+brew info --json=v2 --cask background-music cheatsheet font-hack-nerd-font kitty sf-symbols wine-stable blackhole-2ch fig gstreamer-runtime obsidian vlc | jq '.casks[] | {name: .name, depends_on: .depends_on}'
+l
+brew uninstall sf-symbols
+l
+brew ls
+screenresolution
+ll
+l
+vim install.sh
+cd zsh
+l
+vim .zshrc
+l
+..
+l
+vim install.sh
+chmod +x install.sh
+l
+vim install.sh
+vim install.sh
+defaults read > macos_defaults.txt
+l
+vim macos_defaults.txt
+rm macos_defaults.txt
+defaults read NSGlobalDomain > macos_ui_defaults.txt && \\
+defaults read com.apple.Dock >> macos_ui_defaults.txt && \\
+defaults read com.apple.finder >> macos_ui_defaults.txt && \\
+defaults read com.apple.menuextra.clock >> macos_ui_defaults.txt && \\
+defaults read com.apple.trackpad >> macos_ui_defaults.txt && \\
+defaults read com.apple.mouse >> macos_ui_defaults.txt && \\
+defaults read com.apple.AppleMultitouchTrackpad >> macos_ui_defaults.txt && \\
+defaults read com.apple.desktopservices >> macos_ui_defaults.txt && \\
+defaults read com.apple.screencapture >> macos_ui_defaults.txt && \\
+defaults read com.apple.spaces >> macos_ui_defaults.txt
+l
+vim macos_ui_defaults.txt
+rm macos_ui_defaults.txt
+vim install.sh
+l
+vim README.md
+l
+vim .gitignore
+vim .gitignore
+acp "init"
+l
+git diff
+l
+vim README.md
+cd gh
+l
+vim config.yml
+vim hosts.yml
+..
+l
+cd gho
+l
+cd ghostty
+l
+vim config
+brew ls
+l
+..
+vim install.sh
+l
+vim install.sh
+vim install.sh
+brew install mas
+l
+cd gh
+l
+vim config.yml
+l
+...
+l
+cd .config
+l
+vim install.sh
+l
+glow README.md
+vim zsh/.zshrc
+vim zsh/.zshrc
+l
+vim zsh/.zshrc
+glow
+glow
+glow
+l
+cat README.md
+re
+l
+zshconfig
+l
+acp "added all"
+l
+zshconfig
+l
+vim install.sh
+l
+acp "fix"
+l
+vim install.sh
+acp "testing"
+export
+l
+export
+f
+/
+l
+f
+f
+grep -r "ZDOTDIR" ~/.zshrc ~/.zprofile ~/.bashrc ~/.bash_profile /etc/* 2>/dev/null
+l
+~
+l
+cd .ollama
+l
+cd mode
+l
+..
+l
+cd .config
+l
+cd scripts
+l
+..
+l
+open .
+rm zshplugins && cd zsh && md customplugins && cd customplugins
+l
+open .
+l
+..
+l
+..
+l
+l
+open .
+l
+export
+l
+md wallpaper
+cd wallpaper
+l
+..
+l
+re
+l
+re
+l
+cd lazygit
+l
+vim config.yml
+tree
+..
+l
+tree
+tree always
+l
+q translate
+find . -maxdepth 2 -type d -exec tree {} \;
+tree -maxdepth 2
+l
+cd lazygit
+vim config.yml
+..
+l
+re
+g
+cd lazygit
+l
+vim config.yml
+re
+..
+g
+l
+git add .
+re
+add
+cd .git
+l
+..
+l
+g
+l
+add
+ps aux | grep git
+ps
+p
+zshconfig
+re
+ps aux | grep git
+re
+~
+l
+brew install stow
+stow
+l
+md test123
+l
+stow test123
+l
+cd .conif
+cd .config
+l
+..
+l
+rm test123/
+l
+rmds
+c
+l
+rmds
+l
+/
+l
+cd Applications
+l
+rm UTM.app/
+l
+~
+l
+l
+zshconfig
+f
+l
+cl
+l
+c
+l
+re
+l
+f
+f
+zshconfig
+f
+re
+f
+f --help
+fzf --zsh
+l
+f
+f --help
+l
+zshconfig
+f
+zshconfig
+re
+f
+zshconfig
+re
+f
+f

@@ -55,7 +55,7 @@ alias l='eza --long --all --header --icons --git' # Enhanced `ls` replacement
 alias tree='eza --tree --all --icons'
 alias c='clear'                                   # Clear terminal
 alias :q='exit'                                   # Vim-style exit
-alias f='fzf'                                     # Fuzzy finder
+alias f='fzf '                                     # Fuzzy finder
 
 # Quick Directory Navigation
 alias -g ~='cd ~'
@@ -72,6 +72,14 @@ alias -g ......='cd ../../../../..'
 eval "$(oh-my-posh init zsh --config ~/Dev/plugins/catppuccin-bubbles-omp-theme/catppuccin-bubbles.omp.json)"
 eval "$(zoxide init zsh)"
 eval "$(fzf --zsh)"
+
+# Mocha theme for fzf
+export FZF_DEFAULT_OPTS=" \
+--color=bg+:#313244,bg:#1e1e2e,spinner:#f5e0dc,hl:#f38ba8 \
+--color=fg:#cdd6f4,header:#f38ba8,info:#cba6f7,pointer:#f5e0dc \
+--color=marker:#b4befe,fg+:#cdd6f4,prompt:#cba6f7,hl+:#f38ba8 \
+--color=selected-bg:#45475a \
+--color=border:#313244,label:#cdd6f4"
 
 # Path to .config
 export XDG_CONFIG_HOME="$HOME/.config"
