@@ -39,8 +39,8 @@ brew install node python@3.12 pyenv rust lua gcc cmake vite tlrc
 
 # Install GUI applications and fonts
 echo "Installing GUI applications and fonts..."
-#brew install --cask background-music cheatsheet font-hack-nerd-font kitty obsidian vlc amazon-q ghostty raycast betterdiscord-installer touchdesigner spotify
-#mas install 424389933 634148309 # Final Cut Pro & Logic Pro
+brew install --cask background-music cheatsheet font-hack-nerd-font kitty obsidian vlc amazon-q ghostty raycast betterdiscord-installer touchdesigner spotify
+mas install 424389933 634148309 # Final Cut Pro & Logic Pro
 
 # Install LazyVim
 echo "Installing LazyVim..."

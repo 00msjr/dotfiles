@@ -71,6 +71,7 @@ alias -g ......='cd ../../../../..'
 # ===========================
 eval "$(oh-my-posh init zsh --config ~/Dev/plugins/catppuccin-bubbles-omp-theme/catppuccin-bubbles.omp.json)"
 eval "$(zoxide init zsh)"
+eval "$(fzf --zsh)"
 
 # Path to .config
 export XDG_CONFIG_HOME="$HOME/.config"
