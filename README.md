@@ -24,10 +24,6 @@ This will:
 3. Clone this repository and symlink dotfiles.
 4. Apply macOS UI tweaks.
 
-## Customization
-
-Feel free to modify the scripts and dotfiles to fit your personal workflow.
-
 ## Notes
 
 - Ensure you have **Git** and **Homebrew** installed before running the script.

@@ -628,3 +628,52 @@ l
 l
 ripgrep
 brew ls
+l
+brewls
+brew ls
+l
+pip3
+pip3 list
+pip3 list --not-required
+pip3 uninstall $(pip3 list --not-required | awk '{print $1}')
+pip3 uninstall $(pip3 list)
+pip3 list --global
+cargo ls
+cargo list
+cargo --list
+l
+q translate
+pip3 list --format=columns
+pip3 freeze | xargs pip3 uninstall -y
+rm -rf ~/.local/lib/python*/site-packages\
+rm -rf ~/.cache/pip
+rm -rf ~/.local/lib/python/site-packages\
+rm -rf ~/.cache/pip
+l
+pip3 list
+l
+cd .local/
+l
+cd bin
+l
+..
+l
+..
+l
+fd python
+rm -rf ~/Library/Python/3.9/lib/python/site-packages
+rm ~/Library/Python/3.9/lib/python/site-packages
+rm ~/.cache/pip
+l
+pip3 freeze | xargs pip3 uninstall -y
+pip3 list
+pip list
+l
+npm ls
+npm ls -g
+yarn list
+curl list
+l
+brew ;s
+brew ls
+brew ls --verbose
