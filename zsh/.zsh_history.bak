@@ -626,3 +626,5 @@ ssh
 zshconfig
 l
 l
+ripgrep
+brew ls

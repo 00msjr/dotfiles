@@ -1,31 +1,34 @@
-# Michael's Dotfiles and most used apps
+# Dotfiles Setup
 
-# dotfiles
+This repository contains my personal dotfiles and macOS configuration scripts for setting up a development environment.
 
-- lazyvim
-- zsh
-- oh-my-zsh
-- ghostty
-- oh-my-posh
-- scripts for mac
-- amazon q
-- cava
+## Features
 
-# Apps
+- Automates installation of essential CLI tools, utilities, and developer software.
+- Configures shell environment (`zsh`), aliases, and UI preferences.
+- Applies macOS system settings for UI and usability improvements.
+- Installs and configures `neovim`, `lazygit`, `sketchybar`, and other essential tools.
 
-- ghostty
-- lazyvim
-- raycast
-- arc
-- amazon q (term autocomplete)
-- figma
-- claude
-- spotify
-- kitty for images
-- chatgpt
+## Installation
 
-# Brew
+To set up your system, run the following command:
 
-- cheatsheat
-- background-music
-- neofetch
+```sh
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/soup-ms/dotfiles/main/install.sh)"
+```
+
+This will:
+
+1. Install required dependencies via Homebrew.
+2. Set up system configurations.
+3. Clone this repository and symlink dotfiles.
+4. Apply macOS UI tweaks.
+
+## Customization
+
+Feel free to modify the scripts and dotfiles to fit your personal workflow.
+
+## Notes
+
+- Ensure you have **Git** and **Homebrew** installed before running the script.
+- Restart your terminal after installation to apply changes.
