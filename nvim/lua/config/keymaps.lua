@@ -34,7 +34,10 @@ vim.keymap.set("v", "'", "<esc>`>a'<esc>`<i'<esc>", { noremap = true }) -- Surro
 vim.keymap.set("v", '"', '<esc>`>a"<esc>`<i"<esc>', { noremap = true }) -- Surround with "" in visual mode
 
 -- Find & Replace Enhancements
-vim.keymap.set("n", "<D-f>", "/", { noremap = true, silent = true }) -- Cmd + F to start search
+vim.keymap.set("n", "<D-f>", function()
+  require("flash").jump()
+end, { noremap = true, silent = true })
+
 vim.keymap.set("n", "<D-r>", ":%s//g<Left><Left>", opts) -- Cmd + Shift + F for find & replace
 -- Quick delete lines containing a word
 vim.keymap.set("n", "<D-l>", [[:g/<C-r><C-w>/d<CR>]], opts) -- Cmd + L deletes lines with the word under cursor

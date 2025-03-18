@@ -1,4 +1,5 @@
 return {
+  -- Utility plugins
   {
     "dstein64/vim-startuptime",
     cmd = "StartupTime",
@@ -6,6 +7,8 @@ return {
       vim.g.startuptime_tries = 10
     end,
   },
+
+  { "nvim-telescope/telescope.nvim", lazy = true },
 
   { "nvim-lua/plenary.nvim", lazy = true },
 

@@ -8,21 +8,23 @@ vim.opt.rtp:prepend(vim.env.LAZY or lazypath)
 
 require("lazy").setup({
   spec = {
-    -- add LazyVim and import its plugins
     {
       "LazyVim/LazyVim",
       import = "lazyvim.plugins",
       opts = {
+        -- Colorscheme
         transparent = true,
         colorscheme = "catppuccin-mocha",
         keymaps = "opts",
-        styles = {
-          sidebars = "transparent",
-          floats = "transparent",
+        integrations = {
+          noice = true,
+          which_key = true,
+          blink_cmp = true,
+          snacks = true,
         },
       },
     },
-    -- import any extras modules here
+
     { import = "lazyvim.plugins.extras.linting.eslint" },
     { import = "lazyvim.plugins.extras.lang.typescript" },
     { import = "lazyvim.plugins.extras.lang.tailwind" },

@@ -1,0 +1,4 @@
+[[manager.prepend_keymap]]
+on = ["f", "g"]
+run = "plugin fr rg"
+desc = "Search file by content (rg)"

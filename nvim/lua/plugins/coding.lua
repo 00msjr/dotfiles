@@ -1,23 +1,21 @@
 return {
-
+  -- LSP and tools
   {
     "mason.nvim",
   },
+
+  -- Auto tag for HTML/JSX
   {
     "windwp/nvim-ts-autotag",
     event = "LazyFile",
   },
-  {
-    "echasnovski/mini.pairs",
-    event = "VeryLazy",
-  },
-  {
-    "echasnovski/mini.surround",
-    event = "VeryLazy",
-  },
+
+  -- Emmet for HTML/CSS
   {
     "mattn/emmet-vim",
   },
+
+  -- Better yank/paste
   {
     "gbprod/yanky.nvim",
     recommended = true,

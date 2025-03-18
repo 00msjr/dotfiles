@@ -1,0 +1,187 @@
+: 1742307026:0;zshrc
+: 1742307057:0;l
+: 1742307058:0;re
+: 1742307058:0;l
+: 1742307070:0;rm .zcoredump
+: 1742307071:0;l
+: 1742307077:0;rip .zcoredump
+: 1742307083:0;rm .zcoredump
+: 1742307085:0;l
+: 1742307097:0;rm .zcompdump
+: 1742307098:0;l
+: 1742307099:0;re
+: 1742307100:0;l
+l
+re
+l
+l
+cd .config/zsh
+l
+zshrc
+zshrc
+mkdir -p ~/.config/zsh/dump\
+mv ~/.zcompdump ~/.config/zsh/dump/zcompdump
+l
+zshrc
+re
+l
+..
+l
+..
+l
+re
+l
+l
+c
+brew ls | rg love
+brew ls
+c
+l
+brew ls
+c
+arc
+cd dev/plugins
+l
+cd arc-search
+l
+cat touch
+rm touch
+l
+vim arc-search.plugin.zsh
+l
+~
+l
+l
+c
+l
+re
+vim
+time nvim
+vim
+re
+re
+mba
+re
+mba
+mba
+1920
+cleanup
+re
+re
+cleanup
+re
+1920
+l
+cd dev/a[[s
+l
+cd dev/apps
+l
+cargo new rouse
+l
+cd rouse
+l
+cd src
+l
+vim main.rs
+..
+l
+vim Cargo.lock
+vim Cargo.toml
+l
+cd src
+l
+..
+l
+cargo run
+error: expected one of `!` or `::`, found `eframe`\
+ --> src/main.rs:1:6\
+  |\
+1 | fuse eframe::egui::{self, Button, CentralPanel, Label, ProgressBar, Slider, Window};\
+  |      ^^^^^^ expected one of `!` or `::`\
+  |\
+help: there is a keyword `use` with a similar name\
+  |\
+1 | use eframe::egui::{self, Button, CentralPanel, Label, ProgressBar, Slider, Window};\
+  | ~~~\
+\
+error: could not compile `rouse` (bin "rouse") due to 1 previous error
+cd src
+l
+vim main.rs
+vim main.rs
+..
+l
+cargo run
+cd src
+l
+vim main.rs
+..
+l
+cargo build
+caro
+l
+cd target
+l
+..
+l
+cargo run
+cargo run
+cargo run
+cargo run
+l
+cd src
+l
+vim main.rs
+..
+l
+cargo run
+l
+vim src/main.rs
+..
+l
+cd rouse
+l
+cargo run
+cargo run
+l
+..
+l
+l
+l
+~
+l
+re
+q chat
+l
+vim
+l
+re
+vim
+re
+l
+y
+l
+~
+re
+vim
+y
+l
+cd downloads
+l
+rip linkedinwgu.xlsx
+l
+..
+l
+cleanup
+c
+l
+re
+l
+1920
+sys
+cmatrix
+bonsai
+cbonsai
+cbonsai
+cbonsai
+cbonsai

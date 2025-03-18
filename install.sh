@@ -26,20 +26,20 @@ fi
 echo "Tapping Homebrew repositories..."
 brew tap homebrew/cask-fonts
 brew tap FelixKratz/formulae
-brew tap soup-ms/makedir
+brew tap soup-ms/drako
 
 # Install essential packages
 echo "Installing essential packages..."
-brew install bat borders btop cava eza fd fzf git gh lazygit neofetch neovim tree-sitter zoxide zsh-syntax-highlighting clipboard glow stow mas sketchybar dynamic-island-sketchybar oh-my-posh spicetify-cli
-brew install soup-ms/makedir/makedir
+brew install bat borders btop eza fd fzf git gh lazygit neofetch neovim tree-sitter zoxide zsh-syntax-highlighting clipboard glow stow mas sketchybar dynamic-island-sketchybar oh-my-posh spicetify-cli difftastic atuin ripgrep yazi fastfetch
+brew install soup-ms/drako/drako
 
 # Install developer tools
 echo "Installing developer tools..."
-brew install node python@3.12 pyenv rust lua gcc cmake vite tlrc
+brew install node python@3.12 pyenv rust lua gcc cmake vite tlrc rm-improved
 
 # Install GUI applications and fonts
 echo "Installing GUI applications and fonts..."
-brew install --cask background-music cheatsheet font-hack-nerd-font kitty obsidian vlc amazon-q ghostty raycast betterdiscord-installer touchdesigner spotify sf-symbols
+brew install --cask cheatsheet font-hack-nerd-font kitty vlc amazon-q ghostty raycast touchdesigner sf-symbols
 mas install 424389933 634148309 # Final Cut Pro & Logic Pro
 
 # Install LazyVim
@@ -48,20 +48,63 @@ git clone https://github.com/LazyVim/starter ~/.config/nvim
 rm -rf ~/.config/nvim/.git
 
 # Clone dotfiles repository
-DOTFILES_DIR="$HOME/.config"
-echo "Cloning dotfiles into $DOTFILES_DIR..."
-git clone https://github.com/soup-ms/dotfiles.git "$DOTFILES_DIR"
+CONFIG="$HOME/.config"
+echo "Cloning dotfiles into $CONFIG..."
+git clone https://github.com/soup-ms/dotfiles.git "$CONFIG"
 
-# Symlink dotfiles
-echo "Symlinking configuration files..."
-stow -d "$DOTFILES_DIR" -t "$HOME/.config" bash fish nvim zsh lazygit sketchybar eza bat borders btop cava fd fzf git gh neofetch tree-sitter zoxide zsh-syntax-highlighting clipboard glow stow mas dynamic-island-sketchybar oh-my-posh spicetify-cli makedir
-
-# Move files and set up environment variables based on .zshrc
-echo "Setting up Zsh configuration..."
+# Symlink all configuration directories and files
+echo "Symlinking all configuration files..."
 mkdir -p "$HOME/.config"
 
-# Use stow to manage dotfiles and configurations
-stow -d "$DOTFILES_DIR" -t "$HOME/.config" bash fish nvim zsh lazygit sketchybar eza bat borders btop cava fd fzf git gh neofetch tree-sitter zoxide zsh-syntax-highlighting clipboard glow stow mas dynamic-island-sketchybar oh-my-posh spicetify-cli makedir
+# Use stow to manage all dotfiles and configurations
+CONFIGS=(
+  "dynamic-island-sketchybar"
+  "sketchybar"
+  "gh"
+  "borders"
+  "nvim"
+  "lazygit"
+  "omp-theme"
+  ".obsidian"
+  "yazi"
+  "codewhisperer"
+  "raycast"
+  "scripts"
+  ".ssh"
+  "wallpaper"
+  "eza"
+  "btop"
+  "bat"
+  "cava"
+  "atuin"
+  "zsh"
+  "fonts"
+  "fish"
+  "fastfetch"
+  "fzf"
+  "ghostty"
+)
+
+for config in "${CONFIGS[@]}"; do
+  if [ -d "$CONFIG/$config" ]; then
+    echo "Symlinking $config..."
+    stow -d "$CONFIG" -t "$HOME/.config" "$config"
+  fi
+done
+
+# Handle individual files
+FILES=(
+  ".gitignore"
+  ".gitconfig"
+  "README.md"
+)
+
+for file in "${FILES[@]}"; do
+  if [ -f "$CONFIG/$file" ]; then
+    echo "Copying $file..."
+    cp "$CONFIG/$file" "$HOME/.config/$file"
+  fi
+done
 
 # Apply macOS UI and system settings
 echo "Applying macOS UI settings..."

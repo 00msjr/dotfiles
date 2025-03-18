@@ -36,7 +36,7 @@ sketchybar --bar height=30 \
 # Left
 source "$HOME/.config/sketchybar/plugins/apple.sh"
 source "$ITEM_DIR/front_app.sh"
-source "$ITEM_DIR/spotify.sh"
+source "$ITEM_DIR/music.sh"
 
 # Right
 source "$ITEM_DIR/calendar_item.sh"
