@@ -196,3 +196,120 @@ l
 cd .config
 l
 vim install.sh
+cd dev
+l
+cd scripts
+l
+cp cleanup
+l
+~
+l
+vim
+re
+~
+l
+vim
+l
+nvimconfig
+l
+cd config
+l
+cd ../plugins
+l
+vim writing.lua
+vim
+vim
+Ob
+l
+zsh
+vim
+re
+l
+re
+l
+l
+cd .config
+l
+..
+l
+cpc .zshrc
+l
+vim .zshtv
+vim .zshrc
+cd .config
+l
+q chat
+l
+cd scripts
+l
+l
+p
+l
+..
+l
+rm cava
+rip cava
+l
+acp "update"
+l
+glow README.md
+l
+~
+l
+brew ls
+~
+l
+..
+l
+cd mikey
+l
+nvimconfig
+l
+vim config/
+vim plugins/
+vim
+re
+vim
+l
+q chat
+l
+re
+~
+l
+re
+l
+vim
+re
+zshrc
+fzf
+f
+re
+f
+l
+re
+f
+re
+re
+zshrc
+re
+f
+f
+re
+f
+re
+re
+re
+re
+zshrc
+re
+re
+cleanup
+re
+l
+f
+re
+re
+f
+re
+re
+f
