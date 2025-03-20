@@ -35,7 +35,7 @@ brew install soup-ms/drako/drako
 
 # Install developer tools
 echo "Installing developer tools..."
-brew install node python@3.12 pyenv rust lua gcc cmake vite tlrc rm-improved
+brew install node python@3.12 pyenv rust go lua gcc cmake vite tlrc rm-improved
 
 # Install GUI applications and fonts
 echo "Installing GUI applications and fonts..."
