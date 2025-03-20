@@ -34,7 +34,9 @@ vim.keymap.set("v", "'", "<esc>`>a'<esc>`<i'<esc>", { noremap = true }) -- Surro
 vim.keymap.set("v", '"', '<esc>`>a"<esc>`<i"<esc>', { noremap = true }) -- Surround with "" in visual mode
 
 -- Find & Replace Enhancements
-vim.keymap.set("n", "<D-f>", function()
+vim.keymap.set("n", "<D-f>", "/", { noremap = true, silent = true }) -- Cmd + F to start search
+
+vim.keymap.set("n", "<C-f>", function()
   require("flash").jump()
 end, { noremap = true, silent = true })
 

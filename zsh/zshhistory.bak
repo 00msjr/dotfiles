@@ -313,3 +313,75 @@ f
 re
 re
 f
+l
+l
+cat .cali_data.json
+rip .cali_data.json
+l
+l
+l
+echo git config user.name
+echo "git config user.name"
+echo |  git config user.name
+git config user.name soup
+git config user.name "soup"
+cd .cargo/bin
+l
+cat rustube
+rustup update
+l
+..
+vim
+vim
+vim
+vim
+re
+vim
+l
+cd .config
+l
+f
+y
+g
+g
+cd fzf
+l
+vim config
+vim config
+..
+l
+~
+l
+re
+export FZF_DEFAULT_OPTS=" \\
+--color=bg+:#313244,bg:#1e1e2e,spinner:#f5e0dc,hl:#f38ba8 \\
+--color=fg:#cdd6f4,header:#f38ba8,info:#cba6f7,pointer:#f5e0dc \\
+--color=marker:#b4befe,fg+:#cdd6f4,prompt:#cba6f7,hl+:#f38ba8 \\
+--color=selected-bg:#45475a \\
+--color=border:#313244,label:#cdd6f4"
+f
+cd .config/fzf
+l
+vim config
+l
+q chat
+l
+cd dev/apps
+l
+rip tarsk
+l
+rip rouse
+l
+rip http
+l
+cd cali
+l
+zshrc
+re
+re
+re
+\:w
+\:q
+re
+re
+re

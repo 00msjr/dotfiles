@@ -1,0 +1,12 @@
+[theme]
+name = "catppuccin"
+
+[colors]
+AlertInfo = "#74c7ec"  # Sapphire - bright and attention-grabbing
+AlertWarn = "#89dceb"  # Sky - a cool, noticeable warning color
+AlertError = "#89b4fa" # Blue - soft but stands out for errors
+Annotation = "#a6adc8" # Subtext0 - subtle, supporting text
+Base = "#cdd6f4"       # Text - default foreground color
+Guidance = "#b4befe"   # Lavender - gentle guidance color
+Important = "#74c7ec"  # Sapphire - draws attention while staying in theme
+Title = "#89b4fa"      # Blue - clean, distinct section titles
