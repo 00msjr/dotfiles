@@ -385,3 +385,247 @@ re
 re
 re
 re
+re
+re
+c
+re
+re
+c
+~
+l
+re
+c
+l
+re
+c
+re
+c
+l
+re
+re
+c
+l
+nvimconfig
+l
+cd config
+l
+..
+l
+cd plugins
+l
+q
+q restart
+..
+l
+cd config
+l
+vim keymaps.lua
+re
+vim keymaps.lua
+l
+vim
+q chat
+cd ../plugins
+l
+vim coding.lual
+vim coding.lua
+vim coding.lua
+vim editor.lua
+cat editor.lua
+vim editor.lua
+cd ../config
+l
+vim keymaps.lua
+vim keymaps.lua
+vim keymaps.lua
+vim keymaps.lua
+...
+l
+..
+l
+cd atuin
+l
+vim config.toml
+l
+l
+l
+l
+l
+l
+l
+l
+q
+vim config.toml
+l
+vim config.toml
+l
+md themes
+cd themes
+l
+vim catppuccin.lua
+q
+l
+rustube download https://www.youtube.com/watch?v=7j4WQ5qOBZY
+l
+kl
+l
+l
+rustube download 
+rustube --help
+rustube check https://www.youtube.com/watch?v=HWOWLmrUB_E
+rustube download https://www.youtube.com/watch?v=HWOWLmrUB_E
+re
+rustube
+rustube download https://www.youtube.com/watch?v=HWOWLmrUB_E
+l
+vim blue-catppuccin.toml
+..
+l
+vim config.toml
+cd the
+l
+cd
+z
+z
+cd atuin
+l
+re
+l
+cd themes
+l
+vim blue-catppuccin.toml
+vim blue-catppuccin.toml
+re
+l
+..
+l
+vim config.toml
+re
+c
+l
+atuin sync
+atuin
+atuin theme set blue-catppuccin
+atuin reset
+atuin
+rustube-cli
+rustube
+rustube download --help
+rustube download https://www.youtube.com/watch?v=c0-hvjV2A5Y&t=3899s&ab_channel=BoilerRoom
+rustube download "https://www.youtube.com/watch?v=c0-hvjV2A5Y&t=3899s&ab_channel=BoilerRoom"
+rustube download "https://www.youtube.com/watch?v=LSSAClO-8BQ&ab_channel=Fredagain.."
+cargo uninstall rustube-cli 
+cargo install ls
+cargo install --list
+cargo --list
+c
+l
+vim themes
+l
+vim config.toml
+l
+re
+re
+l
+cd themes
+l
+vim blue-catppuccin.toml
+mv blue-catppuccin.toml catppuccin.toml
+l
+..
+l
+vim config.toml
+re
+l
+vim config.toml
+cd themes
+l
+vim catppuccin.toml
+re
+..
+l
+vim config.toml
+l
+cd themes
+l
+vim catppuccin.toml
+cat catppuccin.toml
+re
+l
+vim catppuccin.toml
+l
+..
+l
+vim config.toml
+l
+...
+cd atuin
+l
+re
+l
+vim config.toml
+re
+l
+cd themes
+l
+vim catppuccin.toml
+re
+vim catppuccin.toml
+re
+..
+l
+vim config.toml
+l
+c
+l
+re
+re
+y
+y
+l
+vim config.toml
+..
+l
+cd .ssh
+l
+..
+l
+vim .gitignore
+vim .gitconfig
+vim .gitconfig
+..
+l
+cd .config
+l
+zshrc
+zshrc
+add
+commit "atuin, nvim, etc.."
+push
+zshrc
+re
+push
+l
+g
+re
+y
+f
+cd fzf
+l
+vim config
+re
+f
+f
+zshrc
+y
+g
+f
+l
+vim config
+re
+f
+l
+c
+l
+~
+l
