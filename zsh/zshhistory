@@ -1,631 +1,1794 @@
-zshrc
 l
-re
+cd gocli
 l
-rm .zcoredump
+vim main.go
+..
 l
-rip .zcoredump
-rm .zcoredump
-l
-rm .zcompdump
-l
-re
-l
-l
-re
-l
-l
-cd .config/zsh
-l
-zshrc
-zshrc
-mkdir -p ~/.config/zsh/dump\
-mv ~/.zcompdump ~/.config/zsh/dump/zcompdump
-l
-zshrc
-re
+rm todo.txt
 l
 ..
 l
+mv learn fizzbuzzlangs
+l
+cd fizzbuzzlangs
+l
+mv rcli/ rscli
+l
+cd rscli
+l
+cd src
+l
+...
+l
+cd gocli
+l
+vim main.go
+l
+go run main.go
+vim main.go
+go run .
+vim main.go
+go run .
+vim main.go
+go run .
+vim main.go
+go run .
+vim main.go
+vim main.go
+go run .
+l
+vim go.mod
 ..
 l
-re
-l
-l
-c
-brew ls | rg love
-brew ls
-c
-l
-brew ls
-c
-arc
-cd dev/plugins
-l
-cd arc-search
-l
-cat touch
-rm touch
-l
-vim arc-search.plugin.zsh
-l
-~
-l
-l
-c
-l
-re
-vim
-time nvim
-vim
-re
-re
-mba
-re
-mba
-mba
-1920
-cleanup
-re
-re
-cleanup
-re
-1920
-l
-cd dev/a[[s
-l
-cd dev/apps
-l
-cargo new rouse
-l
-cd rouse
+cd rscli
 l
 cd src
 l
 vim main.rs
-..
-l
-vim Cargo.lock
-vim Cargo.toml
-l
-cd src
-l
-..
-l
-cargo run
-error: expected one of `!` or `::`, found `eframe`\
- --> src/main.rs:1:6\
-  |\
-1 | fuse eframe::egui::{self, Button, CentralPanel, Label, ProgressBar, Slider, Window};\
-  |      ^^^^^^ expected one of `!` or `::`\
-  |\
-help: there is a keyword `use` with a similar name\
-  |\
-1 | use eframe::egui::{self, Button, CentralPanel, Label, ProgressBar, Slider, Window};\
-  | ~~~\
-\
-error: could not compile `rouse` (bin "rouse") due to 1 previous error
-cd src
-l
+rm main
+rustc main.rs
 vim main.rs
 vim main.rs
-..
+rustc main.rs
 l
-cargo run
-cd src
+./main
+vim main.rs
+rm main
+l
+rustc main.rs
+./main
+l
+cat main.rs
+vim main.rs
+rustc main.rs
+./main
 l
 vim main.rs
+l
+zigh
+zig
 ..
-l
-cargo build
-caro
-l
-cd target
-l
-..
-l
-cargo run
-cargo run
-cargo run
-cargo run
-l
-cd src
-l
-vim main.rs
-..
-l
-cargo run
-l
-vim src/main.rs
-..
-l
-cd rouse
-l
-cargo run
-cargo run
 l
 ..
 l
+md py && cd py
+vim main.py
 l
+python3 main.py
+vim main.py
+python3 main.py
+vim main.py
+python3 main.py
 l
-~
-l
-re
-q chat
-l
-vim
-l
-re
-vim
-re
-l
-y
-l
-~
-re
-vim
-y
-l
-cd downloads
-l
-rip linkedinwgu.xlsx
+vim main.py
+python3 main.py
 l
 ..
-l
-cleanup
-c
-l
-re
-l
-1920
-sys
-cmatrix
-bonsai
-cbonsai
-cbonsai
-cbonsai
-cbonsai
-brew uninstall cbonsai cmatrix cava
 l
 brew ls
-q restart
-brew uninstall background-music
-brew install background-music
-1920
+l
+md zig && cd zig
+vim main.zig
+gcc main.zig
+l
+..
+l
+md c && cd c
+vim main.c
+gcc main.c
+vim main.c
+gcc main.c
+vim main.c
+gcc main.c
+l
+./a.out
+vim main,c
+vim main.c
+gcc main.c
+l
+..
+l
+/
+l
+cd etc
+l
+cd hosts
+l
+vim host
+vim hosts
+sudo vim hosts
+sudo nvim hosts
+re
+l
+sudo nvim hosts
+l
+sudo nvim hosts
+sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder
+sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder
+scutil --dns | grep 'nameserver'
+l
+sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder
+l
+scutil --dns | grep 'nameserver'
+sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder
+scutil --dns | grep 'nameserver'
+l
+vim hosts
+sudo nvim hosts
+l
+re
+cd nvimconfig
+l
+cd nvimconfig
+l
+cd nvimconfig
 l
 cd .config
 l
-vim install.sh
-cd dev
+cd nvim
 l
-cd scripts
+zshrc
 l
-cp cleanup
-l
-~
-l
-vim
 re
-~
-l
-vim
 l
 nvimconfig
-l
-cd config
-l
-cd ../plugins
-l
-vim writing.lua
-vim
-vim
-Ob
-l
-zsh
-vim
-re
-l
-re
-l
-l
-cd .config
-l
-..
-l
-cpc .zshrc
-l
-vim .zshtv
-vim .zshrc
-cd .config
-l
-q chat
-l
-cd scripts
-l
-l
-p
-l
-..
-l
-rm cava
-rip cava
-l
-acp "update"
-l
-glow README.md
-l
-~
-l
-brew ls
-~
-l
-..
-l
-cd mikey
-l
-nvimconfig
-l
-vim config/
-vim plugins/
-vim
-re
-vim
-l
-q chat
-l
-re
-~
-l
-re
-l
-vim
-re
-zshrc
-fzf
-f
-re
-f
-l
-re
-f
-re
-re
-zshrc
-re
-f
-f
-re
-f
-re
-re
-re
-re
-zshrc
-re
-re
-cleanup
-re
-l
-f
-re
-re
-f
-re
-re
-f
-l
-l
-cat .cali_data.json
-rip .cali_data.json
-l
-l
-l
-echo git config user.name
-echo "git config user.name"
-echo |  git config user.name
-git config user.name soup
-git config user.name "soup"
-cd .cargo/bin
-l
-cat rustube
-rustup update
-l
-..
-vim
-vim
-vim
-vim
-re
-vim
-l
-cd .config
-l
-f
-y
-g
-g
-cd fzf
-l
-vim config
-vim config
-..
-l
-~
-l
-re
-export FZF_DEFAULT_OPTS=" \\
---color=bg+:#313244,bg:#1e1e2e,spinner:#f5e0dc,hl:#f38ba8 \\
---color=fg:#cdd6f4,header:#f38ba8,info:#cba6f7,pointer:#f5e0dc \\
---color=marker:#b4befe,fg+:#cdd6f4,prompt:#cba6f7,hl+:#f38ba8 \\
---color=selected-bg:#45475a \\
---color=border:#313244,label:#cdd6f4"
-f
-cd .config/fzf
-l
-vim config
-l
-q chat
-l
-cd dev/apps
-l
-rip tarsk
-l
-rip rouse
-l
-rip http
-l
-cd cali
-l
-zshrc
-re
-re
-re
-\:w
-\:q
-re
-re
-re
-re
-re
-c
-re
-re
-c
-~
-l
-re
-c
-l
-re
-c
-re
-c
-l
-re
-re
-c
-l
-nvimconfig
-l
-cd config
-l
-..
 l
 cd plugins
 l
-q
-q restart
-..
-l
-cd config
-l
-vim keymaps.lua
-re
-vim keymaps.lua
-l
+vim editor.lua
+vim ui.lua
 vim
-q chat
-cd ../plugins
+vim
 l
-vim coding.lual
-vim coding.lua
-vim coding.lua
-vim editor.lua
-cat editor.lua
-vim editor.lua
-cd ../config
+where pop
+cd /Users/mikey/dev/scripts/asciiart
 l
-vim keymaps.lua
-vim keymaps.lua
-vim keymaps.lua
-vim keymaps.lua
+vim me.txt
 ...
 l
-..
-l
-cd atuin
-l
-vim config.toml
-l
-l
-l
-l
-l
-l
-l
-l
-q
-vim config.toml
-l
-vim config.toml
-l
-md themes
-cd themes
-l
-vim catppuccin.lua
-q
-l
-rustube download https://www.youtube.com/watch?v=7j4WQ5qOBZY
-l
-kl
-l
-l
-rustube download 
-rustube --help
-rustube check https://www.youtube.com/watch?v=HWOWLmrUB_E
-rustube download https://www.youtube.com/watch?v=HWOWLmrUB_E
 re
-rustube
-rustube download https://www.youtube.com/watch?v=HWOWLmrUB_E
+re
+re
 l
-vim blue-catppuccin.toml
+re
+re
+re
+re
+re
+re
+re
+re
+re
+re
+re
+re
+re
+cd dev/web
+l
+mv soup-ms 00msjr
+mv 00msjr ../plugins/00msjr
+cd ../plugins/00msjr
+l
+vim README.md
+l
+add
+commit "00msjr update"
+push
+pull
+cat README.md
+vim README.md
+l
+push
+l
+add README.md
+commit "00msjr update"
+l
+pushg
+push
+pull
+l
+vim README.md
+add README.md
+commit "00msjr update"
+push
+l
+vim README.md
+add
+commit "00msjr update"
+push
+brew install pop
+pop
+l
+pop --help
+pop -r re_LvkEgRPc_6uhMPrPsNrBD5Uru9v1t4HMJ
+re
+pop
+pop -r re_LvkEgRPc_6uhMPrPsNrBD5Uru9v1t4HMJ
+l
+vim README.md
+vim README.md
+add && commit "00msjr update" && push
+l
 ..
 l
+cd homebrew-tap
+l
+re
+l
+l
+re
+l
+re
+re
+re
+re
+l
+re
+l
+c
+l
+c
+l
+re
+brew install catppuccin/tap/whiskers
+l
+re
+cd dev/plugins
+l
+cd 00
+l
+vim README.md
+vim README.md
+grip readme.d
+grip readme.md
+vim README.md
+grip readme.md
+l
+vim README.md
+grip readme.md
+brew uninstall whiskers
+l
+re
+re
+sys
+jq
+tldr
+tldr jq
+tlrc
+q\\
+
+q restart
+brew install tldr
+tldr
+tlrc
+brew install vhs
+brew cleanup
+vhs
+vhs new hello
+l
+vim hello.tape
+./hello.tape
+open hello.tape
+open .
+vhs hello.tape
+l
+img hello.gif
+./hello.gif
+open hello.gif
+l
+open .
+rm hello.gif
+mv hello.tape testmd.tape
+l
+vim testmd.tape
+vhs testmd.tape
+open .
+l
+rip testmd.gif testmd.tape
+l
+cd /Users/mikey/.config/fastfetch
+l
 vim config.toml
-cd the
+l
+vim config.jsonc
+re
+l
+vim config.jsonc
+vim config.jsonc
+ re
+vim config.jsonc
+re
+l
+cd /Users/mikey/.config/fastfetch
+l
+vim config.jsonc
+cpc config.jsonc
+vim config.jsonc
+g
+vim config.jsonc
+vim config.jsonc
+re
+vim config.jsonc
+re
+l
+vim config.jsonc
+re
+l
+vim config.jsonc
+re
+vim config.jsonc
+re
+vim config.jsonc
+re
+zshrc
+l
+mv go .go
+l
+re
+l
+re
+l
+re
+l
+re
+re
+l
+re
+re
 l
 cd
-z
-z
-cd atuin
+re
 l
 re
 l
-cd themes
+c
 l
-vim blue-catppuccin.toml
-vim blue-catppuccin.toml
 re
+dr
+mkdir
+makedir
+drako
+ps
+cloc
+hyperfine
+brew install bottom
+bottom
+btm
+du
+brew info bottom
+brew info navi
+brew install navi
+navi
+navi
+brew uninstall navi
+brew install hyperfine
+hyperfine
+hyperfine makedir 
+hyperfine makedir test1
+l
+hyperfine md test1
+hyperfine md test1 --show-output
+hyperfine makedir test1 --show-output
+l
+rip test1
+hyperfine fzf
+vim
+vim
+brew uninstall hyperfine && brew cleanup
+l
+cd .grip
+l
+cd cache-4.6.2
 l
 ..
 l
-vim config.toml
+..
+l
+rip 
+rip .grip
+cd /Users/mikey/go/pkg
+l
+cd mod
+l
+cd cache
+l
+cat lock
+cd download
+l;
+cd golang.org
+l
+cd x
+l
+cd mod
+l
+cd @b
+cd @v
+l
+cat v0.6.0-dev.0.20220419223038-86c51ed26bb4.info
+~
+l
+rip .go
+l
+cd .expo
+l
+..
+l
+rip .expo
+brew uninstall expo
+where expo
+l
 re
+re
+q chat
+l
+cd dev
+l
+cd plugins
+l
+cd 00
+l
+vim README.md
+git pull
+cat README.md
+l
+g
+vim README.md
+add README.md
+commit "update"
+push
+git pull
+git push --force
+vim README.md
+cat README.md
+l
+add
+commit "update"
+push
+re
+cd dev/plugins/makedir
+l
+cd src
+l
+vim main.rs
+l
+..
+l
+osascript -e 'tell application "Finder" to empty trash'
+brew install --cask font-go
+font-go
+l
+cd library
+l
+cd FontCollections
+l
+..
+l
+cd fonts
+l
+open Go-Regular.ttf
+open Go-Mono.ttf
+open .
+where go-regular.ttf
+fd go-regular.ttf
+~
+fd go-regular.ttf
+cd dev/plugins
+l
+l
+btm
+l
+rip 'Fredagain.. - Classical Dragon [FxQirt705gc].webm'
+rm "'Fred again.. & Anderson .Paak - places to be (Eagle Rock, 16th April 2024) feat Chika [0bVFEOb39vk].webm'\
+"
+rm 'Fred again.. & Anderson .Paak - places to be (Eagle Rock, 16th April 2024) feat Chika [0bVFEOb39vk].webm'\
+
+l
+yt-dlp mp4 "https://www.youtube.com/watch?v=0bVFEOb39vk&ab_channel=Fredagain.."
+l
+yt-dlp --help | rg -mp4
+yt-dlp --help | rg "-mp4"
+yt-dlp --help | rg mp4
+yt-dlp --help 
+l
+rm 'Fred again.. & Anderson .Paak - places to be (Eagle Rock, 16th April 2024) feat Chika [0bVFEOb39vk].webm'
+l
+brew cleanup
+du
+su
+tu
+zushi
+neo
+neoniri
+zashimi
+cd dev/scrips
+l
+cd dev/scripts/cleanup
+l
+rm cd
+l
+vim cleanup.sh
+l
+re
+cleanup
+re
+cleanup
+re
+cleanup
+re
+cleanup
 c
 l
-atuin sync
-atuin
-atuin theme set blue-catppuccin
-atuin reset
-atuin
-rustube-cli
-rustube
-rustube download --help
-rustube download https://www.youtube.com/watch?v=c0-hvjV2A5Y&t=3899s&ab_channel=BoilerRoom
-rustube download "https://www.youtube.com/watch?v=c0-hvjV2A5Y&t=3899s&ab_channel=BoilerRoom"
-rustube download "https://www.youtube.com/watch?v=LSSAClO-8BQ&ab_channel=Fredagain.."
-cargo uninstall rustube-cli 
+zshrc
+l
+re
+l
+re
+l
+1920
+l
+brew install --cask discord
+brew ls
+ghostty
+ghostty --version
+l
+zig
+z
+cdb
+zshrc
+where vim
+where nvim
+cd ~
+re
+re
+cd dev/scripts/cleanup
+l
+vim cleanup.sh
+vim cleanup.sh
+re
+~
+l
+brew ls
+brew uninstall monarch
+l
+brew ls
+cd -
+l
+btm
+sys
+btm
+~
+l
+cd .config
+l
+compgen -c
+compgen
+compgen
+alias; functions; print -l ${(k)commands}
+alias; functions; print -l ${(k)commands} | rg compgen
+alias; functions; print -l ${(k)commands}
+alias; functions; print -l ${(k)commands} | rg makedir
+alias
+alias
+l
+rip btop
+where btm
+rip kitty
+l
+l
+l
+..
+l
+vim cleanup
+cd dev/scripts/cleanup
+l
+vim cleanup.sh
+re
+cleanup
+vim cleanup.sh
+re
+cleanup
+vim cleanup.sh
+re
+cleanup
+vim cleanup.sh
+vim cleanup.sh
+l
+..
+l
+cd hushterm
+l
+vim hushterm.sh
+..
+l
+..
+l
+..
+l
+rip .DS_Store
+l
+09;5u
+l
+l
+l
+cd .aws
+l
+cd amazonq
+l
+cd profiles
+l
+..
+l
+..
+l
+..
+l
+rip .aws
+zshrc
+re
+l
+re
+l
+l
+rip
+rip -h
+l
+l
+brew install youtubedr
+youtubedr
+youtubedr download https://www.youtube.com/watch?v=0bVFEOb39vk&ab_channel=Fredagain..
+youtubedr --help
+youtubedr download
+youtubedr download .
+youtubedr download . https://www.youtube.com/watch?v=0bVFEOb39vk&ab_channel=Fredagain..
+youtubedr download 
+youtubedr -o "places_to_be".mp4 https://www.youtube.com/watch?v=0bVFEOb39vk&ab_channel=Fredagain..
+l
+https://www.youtube.com/watch?v=0bVFEOb39vk&ab_channel=Fredagain..
+0bVFEOb39vk
+youtubedr download 0bVFEOb39vk
+brew uninstall youtubedr
+brew install yt-dlp
 cargo install ls
-cargo install --list
-cargo --list
-c
+brew ls
+cli-yt-downloader -- "https://www.youtube.com/watch?v=FxQirt705gc"
+yt-dlp
+pip3 list
+yt-dlp --help
+yt-dlp --help | rg download
+yt-dlp "https://www.youtube.com/watch?v=FxQirt705gc"
 l
-vim themes
+yt-dlp https://www.youtube.com/watch?v=FxQirt705gc
+yt-dlp "https://www.youtube.com/watch?v=FxQirt705gc"
 l
-vim config.toml
+open .
+open 'Classical Dragon [FxQirt705gc].webm'
 l
-re
-re
+rip 'Classical Dragon [FxQirt705gc].webm'
 l
-cd themes
+yt-dlp "https://www.youtube.com/watch?v=0bVFEOb39vk&ab_channel=Fredagain.."
 l
-vim blue-catppuccin.toml
-mv blue-catppuccin.toml catppuccin.toml
+yt-dlp --help
+yt-dlp --help | format
+yt-dlp --help | rg format
+yt-dlp --help | rg mp4
+yt-dlp --help | rg flgh
+yt-dlp --help | rg flag
+yt-dlp --help | rg mp3
+yt-dlp --help | rg video
+zshrc
 l
-..
+zshrc
+cb
+i
+u
+cat <ctri + shift + j> | fzf
+06;6u/private/var/folders/v2/2xhsmcwd6f92srcmgq
+OPOjjJ/private/var/folders/v2/2xhsmcwd6f92srcmgq0zbh4c0000gn/T/JOQd56BZVJM4hvZdYZNCRQ/screen.txt
+OPOjjJ/private/var/folders/v2/2xhsmcwd6f92srcmgq0zbh4c0000gn/T/JOQd56BZVJM4hvZdYZNCRQ/screen.txt
+LMNK/private/var/folders/v2/2xhsmcwd6f92srcmgq0zbh4c0000gn/T/2BFYJVeGGJ4wx6nI5eCqOw/screen.txtBG
+cmd
+command
+function\
+\
+q
+functions
 l
-vim config.toml
-re
+cd dev/scripts
 l
-vim config.toml
-cd themes
+cd cleanup
 l
-vim catppuccin.toml
-re
-..
+vim cleanup.sh
+cleanup
 l
-vim config.toml
-l
-cd themes
-l
-vim catppuccin.toml
-cat catppuccin.toml
-re
-l
-vim catppuccin.toml
-l
-..
-l
-vim config.toml
+~
 l
 ...
-cd atuin
+l
+cd users
+l
+cd mikey
+~
 l
 re
-l
-vim config.toml
-re
-l
-cd themes
-l
-vim catppuccin.toml
-re
-vim catppuccin.toml
-re
-..
-l
-vim config.toml
+c
+ghostty --print-kets
+ghostty --print-keys
+ghostty +print-keys
+ghostty --help
+ghostty +list-keybinds
+cd cali
 l
 c
 l
-re
-re
-y
-y
+cd release
 l
-vim config.toml
+cd target
+l
+cd release
+l
+./cali
+...
+l
+cargo build -r
+cd release
+l
+./cali
+./cali
+l
 ..
 l
-cd .ssh
+..
+l
+glow README.md
+l
+..
+l
+cd makedir
+l
+cd src
+l
+cpc main.rs
+..
+l
+cpc readme.md
+glow README.md
+brew install grip
+l
+grip readme.md
+l
+brew uninstall glow
+..
+l
+cd cali
+l
+grip readme.md
+c
+l
+dr
+..
+l
+l
+cd godo
+cd godo
+l
+cat go.mod
+l
+cat go.sum
+l
+vim go.mod
+cat go.mod
+l
+go main.go
+./main.go
+l
+./main.go
+go
+go run main.go
+l
+l
+cat go.mod
+l
+go run main.go
+l
+go
+l
+go build main.go
+go run main.go
+go run .
+l
+go run .
+vim storage.go
+l
+l
+l
+git init
+l
+l
+grip readme.md
+l
+1920
+l
+mba
+l
+go run .
+l
+cat main.go
+l
+cat go.mod
+l
+re
+l
+go run .
+re
+l
+c
+l
+go run .
+go run .
+l
+vim main.go
+cd data
 l
 ..
 l
 vim .gitignore
-vim .gitconfig
-vim .gitconfig
+l
+re
+c
+l
+go run .
+l
+cd data
+l
+cd archive
+l
+vim archive.json
 ..
 l
-cd .config
+..
 l
-zshrc
-zshrc
-add
-commit "atuin, nvim, etc.."
-push
-zshrc
-re
-push
+go run .
+vim main.rs
 l
-g
-re
-y
-f
-cd fzf
+go run .
+godo
 l
-vim config
-re
-f
-f
-zshrc
-y
-g
-f
 l
-vim config
 re
-f
 l
 c
 l
+go run .
+cat go.mod
+cat go.mod
+cat go.sum
+l
+go run .
+go run . todo
+re
+go run . todo
+l
+l
+vim todo.md
+l
+re
+l
+godo
+;
+l
+ruby
+c
+l
+go run .
+cd data
+l
+..
+l
+vim main.go
+l
+time go run .
+time makedir
+l
+l
+c
+l
+re
+l
+go run .
+go run .
+l
+1920
+l
+f
+f
+y
+q restart
+g
+cd .config
+g
+l
+acp "update"
+git commit --amend --reset-author
+git pull
+git pull --force
+git config pull.rebase false
+git push --force
+git pull
+re
+~;2;13~l
 ~
 l
+cd dev
+l
+cd apps
+l
+vim rshttpserver/
+cd rshttpserver
+l
+..
+l
+rm rshttpserver/
+l
+rip rshttpserver
+l
+cargo new http
+l
+cd http
+l
+cd src
+l
+vim main.rs
+vim
+l
+re
+l
+re
+l
+q chat
+re
+time ls
+l
+..
+l
+..
+l
+md 
+makedir
+md -c cali
+l
+cd cali
+l
+cd src
+l
+vim main.rs
+q chat
+..
+l
+..
+l
+..
+l
+cd apps
+l
+..
+l
+rip apps
+l
+cd plugins
+l
+cd cali
+l
+q chat
+1re
+re
+zshrc
+re
+c
+l
+cd .config/fast
+l
+vim config.jsonc
+cd cleanup
+l
+vim cleanup.sh
+re
+cleanup
+~
+l
+fdjskl
+fdjskl9;6u18;6u
+l
+cd makedir
+l
+vim README.md
+cd src
+l
+vim main.rs
+..
+add
+l
+commit "change name from makedir -> drako"
+push
+l
+img drakoicon
+l
+c
+l
+img drakoicon
+l
+cd .config
+l
+vim .zshrc
+..
+l
+vim .zshrc
+touch testfile.txt && trash testfile.txt
+re
+cleanup
+re
+fdjsfklsY/private/var/folders/v2/2xhsmcwd6f92srcmgq0zbh4c0000gn/T/PawfC29WDvvIeoj_KeA_UQ/screen.txtYYU/private/var/folders/v2/2xhsmcwd6f92srcmgq0zbh4c0000gn/T/nMZDU_UWhkU_NYMo9geL2Q/screen.txtfdjsfklsY/private/var/folders/v2/2xhsmcwd6f92srcmgq0zbh4c0000gn/T/PawfC29WDvvIeoj_KeA_UQ/screen.txtYYU/private/var/folders/v2/2xhsmcwd6f92srcmgq0zbh4c0000gn/T/nMZDU_UWhkU_NYMo9geL2Q/screen.txtfdjsfklsY/private/var/folders/v2/2xhsmcwd6f92srcmgq0zbh4c0000gn/T/PawfC29WDvvIeoj_KeA_UQ/screen.txtYYU/private/var/folders/v2/2xhsmcwd6f92srcmgq0zbh4c0000gn/T/nMZDU_UWhkU_NYMo9geL2Q/screen.txtfdjsfklsY/private/var/folders/v2/2xhsmcwd6f92srcmgq0zbh4c0000gn/T/PawfC29WDvvIeoj_KeA_UQ/screen.txtYYU/private/var/folders/v2/2xhsmcwd6f92srcmgq0zbh4c0000gn/T/nMZDU_UWhkU_NYMo9geL2Q/screen.txtfdjsfklsY/private/var/folders/v2/2xhsmcwd6f92srcmgq0zbh4c0000gn/T/PawfC29WDvvIeoj_KeA_UQ/screen.txtYYU/private/var/folders/v2/2xhsmcwd6f92srcmgq0zbh4c0000gn/T/nMZDU_UWhkU_NYMo9geL2Q/screen.txtfdjsfklsY/private/var/folders/v2/2xhsmcwd6f92srcmgq0zbh4c0000gn/T/PawfC29WDvvIeoj_KeA_UQ/screen.txtYYU/private/var/folders/v2/2xhsmcwd6f92srcmgq0zbh4c0000gn/T/nMZDU_UWhkU_NYMo9geL2Q/screen.txtfdjsfklsY/private/var/folders/v2/2xhsmcwd6f92srcmgq0zbh4c0000gn/T/PawfC29WDvvIeoj_KeA_UQ/screen.txtYYU/private/var/folders/v2/2xhsmcwd6f92srcmgq0zbh4c0000gn/T/nMZDU_UWhkU_NYMo9geL2Q/screen.txtfdjsfklsY/private/var/folders/v2/2xhsmcwd6f92srcmgq0zbh4c0000gn/T/PawfC29WDvvIeoj_KeA_UQ/screen.txtYYU/private/var/folders/v2/2xhsmcwd6f92srcmgq0zbh4c0000gn/T/nMZDU_UWhkU_NYMo9geL2Q/screen.txt
+zshrc
+fdsfdjsfklsY/private/var/folders/v2/2xhsmcwd6f92srcmgq0zbh4c0000gn/T/PawfC29WDvvIeoj_KeA_UQ/screen.txtYYU/private/var/folders/v2/2xhsmcwd6f92srcmgq0zbh4c0000gn/T/nMZDU_UWhkU_NYMo9geL2Q/screen.txtfdjsfklsY/private/var/folders/v2/2xhsmcwd6f92srcmgq0zbh4c0000gn/T/PawfC29WDvvIeoj_KeA_UQ/screen.txtYYU/private/var/folders/v2/2xhsmcwd6f92srcmgq0zbh4c0000gn/T/nMZDU_UWhkU_NYMo9geL2Q/screen.txtfdjsfklsY/private/var/folders/v2/2xhsmcwd6f92srcmgq0zbh4c0000gn/T/PawfC29WDvvIeoj_KeA_UQ/screen.txtYYU/private/var/folders/v2/2xhsmcwd6f92srcmgq0zbh4c0000gn/T/nMZDU_UWhkU_NYMo9geL2Q/screen.txtfdjsfklsY/private/var/folders/v2/2xhsmcwd6f92srcmgq0zbh4c0000gn/T/PawfC29WDvvIeoj_KeA_UQ/screen.txtYYU/private/var/folders/v2/2xhsmcwd6f92srcmgq0zbh4c0000gn/T/nMZDU_UWhkU_NYMo9geL2Q/screen.txt
+re
+re
+l
+re
+re
+re
+re
+re
+re
+re
+re
+re
+re
+re
+re
+re
+re
+re
+re
+cd dev/scripts
+l
+mv hushterm_1 hushterm
+open
+open .
+re
+re
+re
+vim
+l
+vim
+vim
+vim
+re
+vim
+re
+vim
+vim
+im
+vim
+vim
+nvimconfig
+l
+c
+l
+l
+cd plugins
+l
+vim editor.lua
+vim ui.lua
+nvimconfig
+l
+cd plugins
+l
+vim ui.lua
+vim
+l
+vim ui.lua
+vim
+re
+vim
+re
+vim
+ im
+vim
+vim
+vim
+re
+vim
+re
+vim
+re
+vim
+vim
+vim
+re
+vim
+vim
+vim
+vim
+re
+vim
+vim
+q chat
+fjdklsf
+re
+fdsjklfds
+fdsjklfds\
+
+dasjkl
+cat
+cat
+cat
+re
+dfsfhdjskre
+re
+fdsjkl
+fdsjkl\
+
+fdsjkl\
+
+sdajkdlsa
+sdajkdlsa\
+
+er
+re
+dsajklsay\e[1;9Y
+re
+fdsjklfdsfdsjklfds\
+
+re
+fdsjfklds
+fdsjfklds\
+
+\
+
+\
+
+\
+
+\
+
+re
+re
+fkjdsl
+re
+re
+fjdksljfdkls
+re
+fjdks\
+
+re
+fdjskl\
+
+re
+fds\
+
+re
+fdsjkl\
+
+cleanup\
+
+l
+fdjksl
+zshrc
+re
+re
+re
+re
+re
+re
+re
+zshrc
+vim
+l
+nvimconfig
+cd plugins
+l
+vim ui.lua
+l
+fd which
+fd which-key
+rg which
+vim ui.lua
+...
+l
+cd lua/config
+l
+vim keymaps.lua
+cd ../
+l
+cd plugins
+l
+vim ui.lua
+y
+~
+l
+where monarch
+cd library
+l
+cd application\ support
+open .
+where crontab
+/
+cd usr/bin
+l
+vim crontab
+l | rg crontab
+l | rg cron
+l
+c
+re
+l
+c
+l
+ghostty +list-keybinds
+zshrc
+ghostty +list-keybinds | rg y
+ghostty +list-keybinds | rg "y"
+re
+ghostty +list-keybinds
+dsajkdlaYYY/private/var/folders/v2/2xhsmcwd6f92srcmgq0zbh4c0000gn/T/LDbWjBROSr3AJJ_RkrVraQ/screen.txt
+/private/var/folders/v2/2xhsmcwd6f92srcmgq0zbh4c0000gn/T/tTxQxFuZZ7ijb-J027eISQ/screen.txt
+cd /private/var/folders/v2/2xhsmcwd6f92srcmgq0zbh4c0000gn/T/N_zJm1Tk-AinlEMYAqEcUA/screen.txt
+cd /private/var/folders/v2/2xhsmcwd6f92srcmgq0zbh4c0000gn/T/Zbocn0vG7veYw7eV4SOJCA/
+l
+cat screen.txt
+c
+re
+re
+c
+re
+c
+~
+l
+ghostty +list-keybinds
+;2~;2H;2H;2F;2F;2~;2~;2~;2H~
+ghostty +list-keybinds
+fdsjfkdsl/private/var/folders/v2/2xhsmcwd6f92srcmgq0zbh4c0000gn/T/Y0R6Di4f8KiLjXX1XNpq8w/screen.txtYyYUYUsdjahjk/private/var/folders/v2/2xhsmcwd6f92srcmgq0zbh4c0000gn/T/6TOM05VZmTrwmxvHSupkWw/screen.txt
+/private/var/folders/v2/2xhsmcwd6f92srcmgq0zbh4c0000gn/T/lckIqq7sVgMTPf6UYc1Fag/screen.txt
+/private/var/folders/v2/2xhsmcwd6f92srcmgq0zbh4c0000gn/T/ZBEqYFf5Ffpfy6OrXEDmlQ/screen.txt
+dsajhkyYUYUsdjahjk
+yYUYUsdjahjkyYUYUsdjahjkyYUYUsdjahjk/private/var/folders/v2/2xhsmcwd6f92srcmgq0zbh4c0000gn/T/zMBZqLyeMlFUCjVLM03_pg/screen.txt
+fdskj/private/var/folders/v2/2xhsmcwd6f92srcmgq0zbh4c0000gn/T/6TOM05VZmTrwmxvHSupkWw/screen.txt
+dfds/private/var/folders/v2/2xhsmcwd6f92srcmgq0zbh4c0000gn/T/6TOM05VZmTrwmxvHSupkWw/screen.txt
+jkfl;ds/
+dsajl \\
+;2A;2Asa
+;2A;2B;2D;2C;2D;2A;2C;2D;2C;2A
+ghostty --print-keys | grep -i ctrl+y
+ghostty --print-keys | grep -i ctrl + y
+ghostty --print-keys | grep -i ctrl+y
+ghostty --print-keys | less
+ghostty +print-keys | less
+ghostty +list-keybinds | less
+ghostty --print-keys | less
+shift + y    write_screen_file:copy
+c
+cd dev/plugins/cpfile
+l
+cd dev/plugins
+l
+cd zshcp
+l
+vim zshcp.plugin.zsh
+~
+l
+ghostty +list-keybinds
+cd /Users/mikey/dev/scripts/cleanup
+l
+vim cleanup.sh
+...
+l
+..
+l
+cleanup
+l
+cd dev
+l
+cd scripts
+l
+md test1
+l
+rip test1
+l
+cd cleanup
+l
+vim cleanup.sh
+~
+l
+re
+cleanup
+l
+rip .DS_Store
+cd dev/plugins/godo
+l
+vim main.go
+~
+l
+ghostty +list-keybinds
+vim
+/private/var/folders/v2/2xhsmcwd6f92srcmgq0zbh4c0000gn/T/wspcmJRP3sHQbJWrl9gFvQ/screen.txt
+ghostty +list-keybinds | rg copy-on-select
+re
+c
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+c
+ghostty +list-actions
+ghostty +list-actions | rg copy
+re
+re
+re
+dsadsa
+l
+rg ctrl+y
+rg "ctrl+y"
+re
+re
+l
+l
+c
+re
+re
+re
+re
+re
+re
+re
+re
+re
+re
+re
+re
+re
+re
+re
+re
+re
+re
+re
+cd dev
+cd scripts
+l
+y
+y
+l
+md scripts/updateghauthor
+mv gh_update_author scripts/updateghauthor
+l
+cd scripts
+l
+cd updateghauthor
+l
+mv gh_update_author updateghauthor.sh
+chmod +x updateghauthor.sh
+./updateghauthor.sh
+re
+vim
+vim
+l
+vim updateghauthor.sh
+vim updateghauthor.sh
+./updateghauthor.sh
+vim updateghauthor.sh
+l
+..
+l
+~
+l
+cd cleanup
+l
+vim cleanup.sh
+re
+~
+l
+cleanup
+l
+rip .DS_Store
+l
+c
+l
+re
+l
+c
+y
+jfklsdjjfklsdjjfklsdjjfklsdjjfklsdjjfklsdjjfklsdjjfklsdj
+/private/var/folders/v2/2xhsmcwd6f92srcmgq0zbh4c0000gn/T/dLK-MiGfVj6FzsWM6fD-UA/screen.txt
+/private/var/folders/v2/2xhsmcwd6f92srcmgq0zbh4c0000gn/T/r_Vpaoxh4WW6ZLUTZWN8XQ/screen.txt
+cd zshcp
+l
+vim zshcp.plugin.zsh
+~
+vim
+sh shell michael sousan
+cmdt
+cmdt
+cmdtower
+sys
+btop[
+btop
+btm
+brew uninstall btop
+re
+re
+re
+l
+cd .aws
+l
+cd amazonq
+l
+..
+l
+..
+l
+cleanup
+mba
+l
+cd /Users/mikey/library/application\ support && open .
+l | rg chat
+rip com.openai.chat
+l
+~
+l
+cd _
+cd -
+l
+cd steam
+l
+cd steamapps
+l
+...
+l
+cd 'Valve\ Corporation\
+l\
+'
+l
+cd Valve\ Corporation
+l
+cd SteamLink
+l
+img app_image_730.jpg
+~
+l
+cd dev/scripts
+l
+cleanup
+l
+cd clea
+l
+vim cleanup.sh
+re
+cleanup
+l
+vim cleanup.sh
+~
+l
+cat .viminfo
+l
+rm .DS_Store
+l
+cd cleanup
+l
+vim cleanup.sh
+~;2;13~l
+l
+chat
+chat
+ollama
+ollama list
+ollama serve
+zshrc
+ollama list
+l
+cd dev/scripts
+l
+cd deepseek
+l
+vim deepseek.sh
+..
+l
+mv deepseek/ ollama
+l
+cd ollama
+l
+cp deepseek.sh gemma.sh
+l
+cpc deepseek.sh gemma.sh
+l
+cpc deepseek.sh
+vim gemma.sh
+ollama serve
+cd dev/scripts
+l
+cd ollama
+l
+chmod +x gemma.sh
+re
+deepseek
+l
+ollama 
+olama pull gemma3:1b 
+ollama pull gemma3:1b 
+l
+ollama list
+re
+chat\
+
+chat
+zshrc
+re
+chat
+zshrc
+chat
+zshrc
+re
+chat
+chat
+zshrc
+zshrc
+re
+chat
+l
+chat
+chat
+chat
+chat
+l
+vim
+vim main.go
+l
+go run main.go
+vim main.go
+rip main.go
+vim
+brew install hyperfine
+brew ls
+pop
+l
+brew uninstall pop
+brew cleanup && brew upgrade
+l
+	cd dev
+l
+cd scripts
+l
+cd ollama
+l
+vim gemma.sh
+..
+l
+~
+l
+bench
+brew ls
+hyperfine
+hyperfine --help
+l
+1920
+1920
+l
+zshrc
+l
+zshrc
+l
+cd dev
+l
+cd scripts
+l
+cd updateghauthor
+vim updateghauthor.sh
+l
+l
+..
+l
+..
+l
+cd /Users/mikey/dev/web/michfolio
+publish
+re
+publish
+l
+push
+brew uninstall --cask github
+chat
+q chat
+l
+re
+vim .zshrc
+l
+cd dev/scripts
+l
+chat
+re
+chat
+killall ollama
+l
+chat
+l
+..
+l
+cd scripts
+l
+..
+cd plugins
+l
+vim 00msjr/README.md
+cd 00msjr
+l
+ad
+add
+commit "update\
+"
+commit
+push
+git push --force
+publish
+l
+vim README.md
+git reset --hard
+l
+push
+vim README.md
+q chat
+q login
+q chat
+q translate
+alias rollback="git reset --hard HEAD~1"
+push
+git reset --hard HEAD~1
+push
+push --force
+git reset --hard HEAD~1
+git reset --hard HEAD~1
+push --force
+git log
+cat README.md
+l
+git push --force
+l
+cat README.md
+vim README.md
+add
+commit "update readme 1"
+push
+vim README.md
+cat README.md
+add
+commit "update 2"
+push
+~
+l
+cd keys
+l
+cd docs
+l
+cd keys
+l
+vim bestformekey.txt
+brew install --cask github
+l
+~
+l
+cd dev
+l
+cd web
+l
+cd mich
+cd michfolio
+l
+git status
+git add
+add
+pull
+l
+open public
+pull
+l
+cd src
+l
+cd components
+l
+vim ProjectCard.tsx
+vim Projects.tsx
+vim Projects.tsx
+l
+cd ui
+l
+..
+l
+..
+l
+cd plages
+l
+cd pages
+l
+vim ProjectDetail.tsx
+..
+l
+cd lib
+l
+..
+l
+cd pages
+l
+..
+l
+cd src/ui
+l
+cd src/components
+l
+vim project-card.tsx
+vim ProjectCard.tsx
+vim Projects.tsx
+vim ProjectCard.tsx
+q chat
+l
+l
+..
+l
+..
+l
+open public
+l
+cd src
+l
+cd pages
+l
+vim Index.tsx
+vim ProjectDetail.tsx
+..
+l
+cd comp
+l
+vim ProjectCard.tsx
+vim Projects.tsx
+vim ProjectCard.tsx
+vim ProjectCard.tsx
+..
+l
+cd pages
+l
+vim ProjectDetail.tsx
+..
+l
+cd components
+l
+vim Hero.tsx
+l
+vim About.tsx
+y
+vim Hero.tsx
+vim Hero.tsx
+l
+y
+y
+l
+..
+l
+add
+commit "add proj2, add 2 blocks and value changes, added new favicon, menu tweak"
+push
+~
+l
+y

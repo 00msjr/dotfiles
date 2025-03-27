@@ -15,6 +15,10 @@ return {
     "mattn/emmet-vim",
   },
 
+  {
+    "ray-x/go.nvim",
+  },
+
   -- Better yank/paste
   {
     "gbprod/yanky.nvim",

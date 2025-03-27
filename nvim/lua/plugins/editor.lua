@@ -1,4 +1,11 @@
 return {
+  {
+    "nacro90/numb.nvim",
+    config = function()
+      require("numb").setup()
+    end,
+  },
+
   -- Git integration
   {
     "lewis6991/gitsigns.nvim",

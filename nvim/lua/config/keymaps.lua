@@ -15,6 +15,9 @@ vim.api.nvim_set_keymap("n", "<C-c>", '"+y', opts) -- Normal mode
 vim.api.nvim_set_keymap("v", "<C-c>", '"+y', opts) -- Visual mode
 vim.api.nvim_set_keymap("x", "<C-c>", '"+y', opts) -- Visual block mode
 
+vim.keymap.set("n", "<leader>G", "<cmd>LazyGit<cr>", { desc = "LazyGit" })
+vim.keymap.set("n", "<leader>Y", "<cmd>Yazi<cr>", { desc = "Yazi" })
+
 ---- Nav
 -- Normal mode
 vim.keymap.set("n", "<D-S-Right>", "$", { desc = "End of line" })
@@ -32,6 +35,7 @@ vim.keymap.set("v", "[", "<esc>`>a]<esc>`<i[<esc>", { noremap = true }) -- Surro
 vim.keymap.set("v", "(", "<esc>`>a)<esc>`<i(<esc>", { noremap = true }) -- Surround with () in visual mode
 vim.keymap.set("v", "'", "<esc>`>a'<esc>`<i'<esc>", { noremap = true }) -- Surround with '' in visual mode
 vim.keymap.set("v", '"', '<esc>`>a"<esc>`<i"<esc>', { noremap = true }) -- Surround with "" in visual mode
+vim.keymap.set("v", "<", "<esc>`>a><esc>`<i<<esc>", { noremap = true }) -- Surround with <> in visual mode
 
 -- Find & Replace Enhancements
 vim.keymap.set("n", "<D-f>", "/", { noremap = true, silent = true }) -- Cmd + F to start search
