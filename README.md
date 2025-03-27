@@ -1,3 +1,5 @@
+![desktop](screenshot.png)
+
 # Dotfiles Setup
 
 This repository contains my personal dotfiles and macOS configuration scripts for setting up a development environment.
